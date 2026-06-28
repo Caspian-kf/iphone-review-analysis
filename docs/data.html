@@ -1,26 +1,72 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Review Data</title>
+    <title>数据列表 - 手机产品口碑分析与可视化平台</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header>
-      <h1>Review Data</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="data.html">Data</a>
-        <a href="analysis.html">Analysis</a>
-      </nav>
+  <body data-page="data">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">口碑分析平台</a>
+        <nav class="nav">
+          <a href="index.html">首页</a>
+          <a class="active" href="data.html">数据列表</a>
+          <a href="analysis.html">分析图表</a>
+          <a href="https://github.com/Caspian-kf/iphone-review-analysis" target="_blank" rel="noopener">GitHub 仓库</a>
+        </nav>
+      </div>
     </header>
-    <main>
-      <section>
-        <h2>Dataset</h2>
-        <pre id="reviews">Loading reviews...</pre>
+
+    <main class="container">
+      <section class="page-title">
+        <p class="eyebrow">Review Dataset</p>
+        <h1>评论数据列表</h1>
+        <p>支持按关键词、情感分类和平台筛选，快速查看模拟采集到的 iPhone 17 系列用户评价。</p>
+      </section>
+
+      <section class="panel">
+        <div class="filters">
+          <label>
+            <span>关键词搜索</span>
+            <input id="keywordSearch" type="search" placeholder="输入续航、拍照、价格等关键词">
+          </label>
+          <label>
+            <span>情感分类</span>
+            <select id="sentimentFilter">
+              <option value="">全部情感</option>
+            </select>
+          </label>
+          <label>
+            <span>平台筛选</span>
+            <select id="platformFilter">
+              <option value="">全部平台</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>平台</th>
+                <th>关键词</th>
+                <th>标题</th>
+                <th>评论内容</th>
+                <th>情感分类</th>
+                <th>发布时间</th>
+                <th>原文链接</th>
+                <th>采集时间</th>
+              </tr>
+            </thead>
+            <tbody id="reviewsTableBody"></tbody>
+          </table>
+          <p id="emptyMessage" class="empty-message" hidden>暂无符合条件的评论数据。</p>
+        </div>
       </section>
     </main>
+
     <script src="js/main.js"></script>
   </body>
 </html>
