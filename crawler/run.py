@@ -20,9 +20,10 @@ KEYWORDS = [
     "iPhone 17 Air 手感",
 ]
 
-REQUEST_INTERVAL_SECONDS = 2
-REQUEST_TIMEOUT_SECONDS = 15
-MAX_RESULTS_PER_KEYWORD = 6
+REQUEST_INTERVAL = 2
+TIMEOUT = 10
+MAX_PER_KEYWORD = 10
+MAX_TOTAL = 50
 
 HEADERS = {
     "User-Agent": (
@@ -32,7 +33,6 @@ HEADERS = {
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-    "Connection": "keep-alive",
 }
 
 FIELDNAMES = [
@@ -46,12 +46,8 @@ FIELDNAMES = [
     "crawl_time",
 ]
 
-if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
-
-POSITIVE_WORDS = ["不错", "提升", "流畅", "满意", "优秀", "好用"]
-NEGATIVE_WORDS = ["发热", "续航差", "信号差", "贵", "卡顿", "不满意"]
+POSITIVE_WORDS = ["不错", "提升", "流畅", "满意", "优秀", "好用", "稳定", "清晰", "强", "舒服"]
+NEGATIVE_WORDS = ["发热", "续航差", "信号差", "贵", "卡顿", "不满意", "问题", "翻车", "差", "失望"]
 
 KNOWN_PLATFORMS = {
     "ithome.com": "IT之家",
@@ -66,16 +62,25 @@ KNOWN_PLATFORMS = {
     "qq.com": "腾讯网",
     "sohu.com": "搜狐",
     "sina.com.cn": "新浪",
+    "cnbeta.com.tw": "cnBeta",
+    "antutu.com": "安兔兔",
+    "36kr.com": "36氪",
+    "msn.com": "MSN",
 }
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
 
-def request_html(session, url, params=None):
-    response = session.get(
-        url,
-        params=params,
-        headers=HEADERS,
-        timeout=REQUEST_TIMEOUT_SECONDS,
-    )
+
+def clean_text(text):
+    if not text:
+        return ""
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def request_text(session, url, params=None):
+    response = session.get(url, params=params, headers=HEADERS, timeout=TIMEOUT)
     response.raise_for_status()
 
     if not response.encoding or response.encoding.lower() == "iso-8859-1":
@@ -84,11 +89,8 @@ def request_html(session, url, params=None):
     return response.text
 
 
-def clean_text(text):
-    if not text:
-        return ""
-
-    return re.sub(r"\s+", " ", text).strip()
+def sleep_between_requests():
+    time.sleep(REQUEST_INTERVAL)
 
 
 def normalize_url(url):
@@ -169,14 +171,14 @@ def parse_rss_publish_time(pub_date):
         return extract_publish_time(pub_date)
 
 
-def build_review(keyword, title, content, url, platform=None, publish_time=None):
+def build_review(keyword, title, content, url, platform="", publish_time=""):
     title = clean_text(title)
     content = clean_text(content)
     url = normalize_url(url)
     merged_text = f"{title} {content}"
 
     return {
-        "platform": clean_text(platform) if platform else infer_platform(url),
+        "platform": clean_text(platform) or infer_platform(url),
         "keyword": keyword,
         "title": title,
         "content": content or title,
@@ -188,12 +190,11 @@ def build_review(keyword, title, content, url, platform=None, publish_time=None)
 
 
 def search_bing_news_rss(session, keyword):
-    query = f"{keyword} 用户评价 体验"
-    xml_text = request_html(
+    xml_text = request_text(
         session,
         "https://www.bing.com/news/search",
         params={
-            "q": query,
+            "q": f"{keyword} 用户评价 体验",
             "format": "rss",
             "mkt": "zh-CN",
             "setlang": "zh-CN",
@@ -202,9 +203,10 @@ def search_bing_news_rss(session, keyword):
     soup = BeautifulSoup(xml_text, "xml")
     reviews = []
 
-    for item in soup.find_all("item")[:MAX_RESULTS_PER_KEYWORD]:
+    for item in soup.find_all("item"):
         title = item.title.get_text(" ", strip=True) if item.title else ""
         description = item.description.get_text(" ", strip=True) if item.description else ""
+        content = BeautifulSoup(description, "lxml").get_text(" ", strip=True)
         link = item.link.get_text(" ", strip=True) if item.link else ""
         source = item.find("News:Source")
         pub_date = item.pubDate.get_text(" ", strip=True) if item.pubDate else ""
@@ -212,9 +214,9 @@ def search_bing_news_rss(session, keyword):
         review = build_review(
             keyword=keyword,
             title=title,
-            content=BeautifulSoup(description, "lxml").get_text(" ", strip=True),
+            content=content,
             url=link,
-            platform=source.get_text(" ", strip=True) if source else None,
+            platform=source.get_text(" ", strip=True) if source else "",
             publish_time=parse_rss_publish_time(pub_date),
         )
 
@@ -225,12 +227,11 @@ def search_bing_news_rss(session, keyword):
 
 
 def search_google_news_rss(session, keyword):
-    query = f"{keyword} 用户评价 体验"
-    xml_text = request_html(
+    xml_text = request_text(
         session,
         "https://news.google.com/rss/search",
         params={
-            "q": query,
+            "q": f"{keyword} 用户评价 体验",
             "hl": "zh-CN",
             "gl": "CN",
             "ceid": "CN:zh-Hans",
@@ -239,9 +240,10 @@ def search_google_news_rss(session, keyword):
     soup = BeautifulSoup(xml_text, "xml")
     reviews = []
 
-    for item in soup.find_all("item")[:MAX_RESULTS_PER_KEYWORD]:
+    for item in soup.find_all("item"):
         title = item.title.get_text(" ", strip=True) if item.title else ""
         description = item.description.get_text(" ", strip=True) if item.description else ""
+        content = BeautifulSoup(description, "lxml").get_text(" ", strip=True)
         link = item.link.get_text(" ", strip=True) if item.link else ""
         source = item.source
         pub_date = item.pubDate.get_text(" ", strip=True) if item.pubDate else ""
@@ -249,9 +251,9 @@ def search_google_news_rss(session, keyword):
         review = build_review(
             keyword=keyword,
             title=title,
-            content=BeautifulSoup(description, "lxml").get_text(" ", strip=True),
+            content=content,
             url=link,
-            platform=source.get_text(" ", strip=True) if source else None,
+            platform=source.get_text(" ", strip=True) if source else "",
             publish_time=parse_rss_publish_time(pub_date),
         )
 
@@ -261,14 +263,13 @@ def search_google_news_rss(session, keyword):
     return reviews
 
 
-def search_bing(session, keyword):
-    query = f"{keyword} 用户评价 体验"
-    html = request_html(
+def search_bing_web(session, keyword):
+    html = request_text(
         session,
         "https://www.bing.com/search",
         params={
-            "q": query,
-            "count": str(MAX_RESULTS_PER_KEYWORD),
+            "q": f"{keyword} 用户评价 体验",
+            "count": str(MAX_PER_KEYWORD),
             "mkt": "zh-CN",
             "setlang": "zh-CN",
         },
@@ -276,7 +277,7 @@ def search_bing(session, keyword):
     soup = BeautifulSoup(html, "lxml")
     reviews = []
 
-    for item in soup.select("li.b_algo")[:MAX_RESULTS_PER_KEYWORD]:
+    for item in soup.select("li.b_algo"):
         link = item.select_one("h2 a")
         snippet = item.select_one("p")
 
@@ -296,17 +297,16 @@ def search_bing(session, keyword):
     return reviews
 
 
-def search_duckduckgo(session, keyword):
-    query = f"{keyword} 用户评价 体验"
-    html = request_html(
+def search_duckduckgo_html(session, keyword):
+    html = request_text(
         session,
         "https://duckduckgo.com/html/",
-        params={"q": query},
+        params={"q": f"{keyword} 用户评价 体验"},
     )
     soup = BeautifulSoup(html, "lxml")
     reviews = []
 
-    for item in soup.select(".result")[:MAX_RESULTS_PER_KEYWORD]:
+    for item in soup.select(".result"):
         link = item.select_one(".result__a")
         snippet = item.select_one(".result__snippet")
 
@@ -326,32 +326,6 @@ def search_duckduckgo(session, keyword):
     return reviews
 
 
-def crawl_keyword(session, keyword):
-    searchers = [
-        ("Bing News RSS", search_bing_news_rss),
-        ("Google News RSS", search_google_news_rss),
-        ("Bing", search_bing),
-        ("DuckDuckGo", search_duckduckgo),
-    ]
-
-    for source_name, searcher in searchers:
-        try:
-            print(f"正在采集：{keyword}，来源：{source_name}")
-            reviews = searcher(session, keyword)
-
-            if reviews:
-                print(f"采集成功：{keyword}，获得 {len(reviews)} 条")
-                return reviews
-
-            print(f"未采集到结果：{keyword}，来源：{source_name}")
-        except Exception as error:
-            print(f"采集失败：{keyword}，来源：{source_name}，错误：{error}")
-
-        time.sleep(REQUEST_INTERVAL_SECONDS)
-
-    return []
-
-
 def deduplicate_reviews(reviews):
     unique_reviews = []
     seen_urls = set()
@@ -365,6 +339,33 @@ def deduplicate_reviews(reviews):
         unique_reviews.append(review)
 
     return unique_reviews
+
+
+def crawl_keyword(session, keyword):
+    searchers = [
+        ("Bing News RSS", search_bing_news_rss),
+        ("Google News RSS", search_google_news_rss),
+        ("Bing Web", search_bing_web),
+        ("DuckDuckGo HTML", search_duckduckgo_html),
+    ]
+    keyword_reviews = []
+
+    for source_name, searcher in searchers:
+        if len(keyword_reviews) >= MAX_PER_KEYWORD:
+            break
+
+        try:
+            print(f"正在采集：{keyword}，来源：{source_name}")
+            source_reviews = searcher(session, keyword)
+            keyword_reviews.extend(source_reviews)
+            keyword_reviews = deduplicate_reviews(keyword_reviews)[:MAX_PER_KEYWORD]
+            print(f"来源完成：{source_name}，当前关键词累计 {len(keyword_reviews)} 条")
+        except Exception as error:
+            print(f"采集失败：{keyword}，来源：{source_name}，错误：{error}")
+
+        sleep_between_requests()
+
+    return keyword_reviews
 
 
 def save_reviews(reviews):
@@ -389,24 +390,29 @@ def save_reviews(reviews):
         writer.writeheader()
         writer.writerows(reviews)
 
-    print(f"已保存 JSON：{json_path}")
-    print(f"已保存 CSV：{csv_path}")
-    print(f"已同步 GitHub Pages 数据：{pages_json_path}")
+    return json_path, csv_path
 
 
 def main():
+    start_time = time.time()
     all_reviews = []
 
     with requests.Session() as session:
-        for index, keyword in enumerate(KEYWORDS):
-            if index > 0:
-                time.sleep(REQUEST_INTERVAL_SECONDS)
+        for keyword in KEYWORDS:
+            if len(all_reviews) >= MAX_TOTAL:
+                break
 
             all_reviews.extend(crawl_keyword(session, keyword))
+            all_reviews = deduplicate_reviews(all_reviews)[:MAX_TOTAL]
 
-    reviews = deduplicate_reviews(all_reviews)
-    save_reviews(reviews)
-    print(f"本次采集完成，共保存 {len(reviews)} 条记录")
+    json_path, csv_path = save_reviews(all_reviews)
+    elapsed = time.time() - start_time
+
+    print("-" * 48)
+    print(f"总采集数量：{len(all_reviews)}")
+    print(f"总耗时：{elapsed:.2f} 秒")
+    print(f"JSON 保存路径：{json_path}")
+    print(f"CSV 保存路径：{csv_path}")
 
 
 if __name__ == "__main__":
