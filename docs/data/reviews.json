@@ -1,15 +1,6 @@
 [
   {
-    "platform": "新浪财经",
-    "keyword": "iPhone 17 续航",
-    "title": "2026学生季最值得购买的苹果手机 - 新浪财经",
-    "content": "2026学生季最值得购买的苹果手机 新浪财经",
-    "sentiment": "中性",
-    "publish_time": "2026-06-02",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHRk4wekhkN3VQcENDOGtqRmRYZ2ZiYW9CU0U3T21zMVpKTl80Tk9aMl9WWWlmcDhJSUM0MS1GdTNuZUxNbmE1RjF6NzBXZHJtal92M2hqQWlublp5dFc2dUo0ZW0xYkxGUEtUU3JvdEt3WWU0elRCZzhPLTJkZw?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
-  },
-  {
+    "category": "手机",
     "platform": "36氪",
     "keyword": "iPhone 17 续航",
     "title": "用iPhone Air三个月体验：续航表现出色，游戏用户慎选！ - 36氪",
@@ -17,9 +8,10 @@
     "sentiment": "中性",
     "publish_time": "2026-04-08",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rMFMtNjZkZlhXZnhMS3JuWWlEcHZsMEtWbS1jQm81amVlY3lmUFdPbGNjaWI1d1RuNW5ZZml1emRUS0lyTUlLZnlXNXBLcUl3WnBV?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
+    "crawl_time": "2026-06-28 17:19:30"
   },
   {
+    "category": "手机",
     "platform": "凤凰网",
     "keyword": "iPhone 17 续航",
     "title": "iPhone 17系列首发评测：标准版太香了，显得Pro不强了？ ｜ 凰家评测 - 凤凰网",
@@ -27,9 +19,10 @@
     "sentiment": "正面",
     "publish_time": "2025-09-17",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GMjRmSGtYTlFBUHFrd3ZYVEd3VUgwSGIxbDhqUkFrb2RlaDZJa3QySWJUclp5RHZETF9kb3c1dWRDRGhoTjN2bl9wMzdnd3M?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
+    "crawl_time": "2026-06-28 17:19:30"
   },
   {
+    "category": "手机",
     "platform": "antutu.com",
     "keyword": "iPhone 17 续航",
     "title": "3月iOS设备好评榜：iPhone 17 Pro Max被嫌弃_月度榜单_安兔兔 - antutu.com",
@@ -37,19 +30,21 @@
     "sentiment": "中性",
     "publish_time": "2026-04-01",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qdUhmRUhQMFNCRHNXWHFmSFhrWjYwRTdMTHBBUTRjSFl3bi1uOF9FbDEwSkdNTUVwMW9tQXJTeU5zVmhDY25peTIwQTl6Zw?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
+    "crawl_time": "2026-06-28 17:19:30"
   },
   {
+    "category": "手机",
     "platform": "中关村在线",
     "keyword": "iPhone 17 续航",
-    "title": "高性能小屏旗舰怎么选？2026三大热门机型横评：一加15T、iPhone 17、小米17 - 中关村在线",
-    "content": "高性能小屏旗舰怎么选？2026三大热门机型横评：一加15T、iPhone 17、小米17 中关村在线",
+    "title": "iPhone 17/17 Pro体验对比 这3000我建议你别花 - 中关村在线",
+    "content": "iPhone 17/17 Pro体验对比 这3000我建议你别花 中关村在线",
     "sentiment": "中性",
-    "publish_time": "2026-06-09",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9paEVreWtxUHJUcWdGazRScmU2a2luRDAtdTNJLVFKMEc0aWJmSi1Rd1hVenpRdGZIYTRDQWRwY2dxN3c3RGJHa1NnYU52TkRFcVFjaTl1NA?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
+    "publish_time": "2025-10-02",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13X2RJQWtnUURHcUQtTnk5TWc3aUFGMTVWUkUtanV3YUoySXAtVmNaeHFNdlR3eTFpVzltVnRsSHNvREIyajlGbG84QkN4U2pZaE1FOTFNbw?oc=5",
+    "crawl_time": "2026-06-28 17:19:30"
   },
   {
+    "category": "手机",
     "platform": "爱范儿",
     "keyword": "iPhone 17 续航",
     "title": "iPhone Air 港版评测：瘸腿是真瘸腿，好看也是真好看 - 爱范儿",
@@ -57,49 +52,10 @@
     "sentiment": "中性",
     "publish_time": "2025-10-18",
     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5KcUxTQlVMVTE2Ui1fOHluY3hSZ0tLQWxFM0NfNDZBZmRSQlNaeGVKQk5PNGk2a3JhTU9tbnphSGlWbk0?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
+    "crawl_time": "2026-06-28 17:19:30"
   },
   {
-    "platform": "动点科技",
-    "keyword": "iPhone 17 续航",
-    "title": "很喜欢iPhone 17，但我不想买 - 动点科技",
-    "content": "很喜欢iPhone 17，但我不想买 动点科技",
-    "sentiment": "中性",
-    "publish_time": "2025-09-10",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44MjJyVlE3WGw4SEcxcnA2cEZ1Rzc1d0xrQk91NUxVYlFjc2ZyUzQ2RU9SR0pMbWRQLWVzdmYzN2hwdUk4akdmelZfYnNDMzNZSm5XTVZpNzFILVBLWWJRbmNYT2dPNWND?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
-  },
-  {
-    "platform": "华尔街日报中文网",
-    "keyword": "iPhone 17 续航",
-    "title": "iPhone Air初评测：为纤薄做出的牺牲是否值得呢？ - 华尔街日报中文网",
-    "content": "iPhone Air初评测：为纤薄做出的牺牲是否值得呢？ 华尔街日报中文网",
-    "sentiment": "中性",
-    "publish_time": "2025-09-10",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HcDZnM01sS1Q4Z2pNZnI0dkVzQkpTS18zTGxSLURwUFFZZnVFMVFhVzVkXzdneFpIMk8xaE1nUTRUQmlUWG84OWtEeHFmSWRuWG5WSGJkZ0ozbUtjS2c1M2VKWHpBWmJLcjZMcDNYMmZSRDN1LVRvVWpn?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
-  },
-  {
-    "platform": "维科号",
-    "keyword": "iPhone 17 续航",
-    "title": "知错就改？iPhone 17e被曝重点升级续航，售价也会有惊喜！ - 维科号",
-    "content": "知错就改？iPhone 17e被曝重点升级续航，售价也会有惊喜！ 维科号",
-    "sentiment": "中性",
-    "publish_time": "2025-11-24",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrcThob0tEbG5sZ0N5ZEd0aGFuTXV3Y1BiSnRaU1FabnZhamNBZzRoSnZEcTNra0ZNeE1UZzFmTXA5cXp3UGNPbXIxRVlDMzZFT3ZmZA?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
-  },
-  {
-    "platform": "中华网",
-    "keyword": "iPhone 17 续航",
-    "title": "苹果用户充电难题破解！绿联MFi认证充电宝成口碑首选 - 中华网",
-    "content": "苹果用户充电难题破解！绿联MFi认证充电宝成口碑首选 中华网",
-    "sentiment": "中性",
-    "publish_time": "2026-05-13",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zNkZZcWR5YV91WDNYSjBhbHk5U2Q2emdpYWY2SDctMHJnV1BTdS0yalJ3dUloakwxZFR4ZkNZLXF6OWc1V1FlLXFWdllMZURCWVpYeWhYRGx0SkZyVEJ1X1lCNnpydVVtYkFZMHo2QUE?oc=5",
-    "crawl_time": "2026-06-28 17:09:37"
-  },
-  {
+    "category": "手机",
     "platform": "爱范儿",
     "keyword": "iPhone 17 发热",
     "title": "iPhone 17 系列首发评测：你这是典型的「安卓」iPhone - 爱范儿",
@@ -107,9 +63,10 @@
     "sentiment": "中性",
     "publish_time": "2025-09-17",
     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5zaHd0eklaeUtrR01jQk9PbXBZWjNabWdibktSWk1KWlF3bHJjQVlseDVBR0xyU2FOM2FRNHFvakdkVW8?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
+    "crawl_time": "2026-06-28 17:19:36"
   },
   {
+    "category": "手机",
     "platform": "36氪",
     "keyword": "iPhone 17 发热",
     "title": "深度体验iPhone 17 Pro：外观之外的惊人变化大揭秘！ - 36氪",
@@ -117,9 +74,10 @@
     "sentiment": "中性",
     "publish_time": "2025-10-02",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zWWlrT0VwZjlBckRBZklsUjUzOHBmSGdkWE5jZWxsY1RNS2w1Zm1wb3J5T1NRRzhJUWpzQV9McTRDRXFXWlNfQUR6b3R4dTItbVl3?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
+    "crawl_time": "2026-06-28 17:19:36"
   },
   {
+    "category": "手机",
     "platform": "新浪财经",
     "keyword": "iPhone 17 发热",
     "title": "iPhone 17 Pro散热大幅改进！但依旧远远落后于安卓 - 新浪财经",
@@ -127,9 +85,10 @@
     "sentiment": "中性",
     "publish_time": "2025-09-19",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yaVF2LXQ3MVJUcW9SWDkwZnByWDN3dkEyLXd6bmFiT0FhRmtZUGxfVVpfTk1fZmZEVW1hdWZPQ3lTV1JWNzVGcmpFc2c4UzkzbFZCZnI3cHhjWm1Janh4cjRrejhBNjlHWEphZE1NUTF2eXdXemV4MkVHaUQ?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
+    "crawl_time": "2026-06-28 17:19:36"
   },
   {
+    "category": "手机",
     "platform": "驱动之家",
     "keyword": "iPhone 17 发热",
     "title": "王自如：iPhone 17发售旧机发热是惯例 或与系统升级有关 - 驱动之家",
@@ -137,9 +96,10 @@
     "sentiment": "负面",
     "publish_time": "2025-09-18",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9kV3E5dUxlb3NCWUFBUDVWNU5VWUVNcno5WnhTTUdsaTk2S1g4LWZmcTNiOGJTTl96T0lRSHMzdGNjZmtacGVVZXB6bVktMjhMZFJ1RklKNk0?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
+    "crawl_time": "2026-06-28 17:19:36"
   },
   {
+    "category": "手机",
     "platform": "新浪财经",
     "keyword": "iPhone 17 发热",
     "title": "更新iOS 26后手机现掉电快及发热现象，苹果首次主动作出解释 - 新浪财经",
@@ -147,59 +107,10 @@
     "sentiment": "负面",
     "publish_time": "2025-09-16",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aQmh5V2tPTEFCOXVSc3I5MTBpYUZoZjZUY0ZxZ1RXVlFtQVJLNXJJaEczUjlpV0ZJSU5fenB3VURnWU12c0I5WEt4d3c0ZzVmdWUyUUhweVZ2el9Vc0RQX1hfYV9ab1pUdGEwOUZPNVc1QQ?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
+    "crawl_time": "2026-06-28 17:19:36"
   },
   {
-    "platform": "搜狐网",
-    "keyword": "iPhone 17 发热",
-    "title": "iOS 26.5正式版测评，机型实测差异大，新老iPhone升级究竟值不值 - 搜狐网",
-    "content": "iOS 26.5正式版测评，机型实测差异大，新老iPhone升级究竟值不值 搜狐网",
-    "sentiment": "负面",
-    "publish_time": "2026-05-13",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkQ0l2NWxkVV9yeHFxZ0VxeUg5d1BXa0xubEU4XzIyZURPaE05Q2RJcDJ4dGRKVm1iaVZNUEhSU1p0cHpzOThiNE02anRGeW5DckNDWHVB?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
-  },
-  {
-    "platform": "36氪",
-    "keyword": "iPhone 17 发热",
-    "title": "iPhone Air上手体验：苹果把手机打造成艺术品 - 36氪",
-    "content": "iPhone Air上手体验：苹果把手机打造成艺术品 36氪",
-    "sentiment": "中性",
-    "publish_time": "2025-11-06",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUHh5TzRzRl9GSVVnYkFTZkNZYnQ0cURtMHVyMG8zVkJ3SHdRdVNJWVNVWF9BUXZQU2dfT3JEUF9tQnFZR2UyMW5GWm40TjNlWVJN?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
-  },
-  {
-    "platform": "news.qq.com",
-    "keyword": "iPhone 17 发热",
-    "title": "“王者”启动！苹果iPhone 15 Pro发热实测，bug修复了吗？ - news.qq.com",
-    "content": "“王者”启动！苹果iPhone 15 Pro发热实测，bug修复了吗？ news.qq.com",
-    "sentiment": "负面",
-    "publish_time": "2023-10-13",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hN3lvbnhaRUNmYURpdi01dEY0Zkw2M0pPQlJFaHBweDRSbzdkQU1JVU0yV3ZFWW95UDJfWDBXb2plSEJrMm5mWm9VNEtPQm03N1F2VmF3?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
-  },
-  {
-    "platform": "新浪财经",
-    "keyword": "iPhone 17 发热",
-    "title": "苹果iOS 26 Beta 2体验：新增20+项更新，卡顿发热有改善！ - 新浪财经",
-    "content": "苹果iOS 26 Beta 2体验：新增20+项更新，卡顿发热有改善！ 新浪财经",
-    "sentiment": "负面",
-    "publish_time": "2025-06-25",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZDBKczBkSlhoTVV6V0xkdF9LXzl3YjR3NlJzYjVYRnYwdjBybjVUZlhYYmN3SXZuTWZ6NG5ILXloYmFTYkxoQmctQnBFZHdJYUNLanIwY2RtOWpQWm5ycmxsN2tZYW5KcjVoNGtuSWNfUEJnc2RrcXg2anR6c18zQnZlOXU?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
-  },
-  {
-    "platform": "news.qq.com",
-    "keyword": "iPhone 17 发热",
-    "title": "iPhone 15 Pro发热严重 只因苹果不重视散热 - news.qq.com",
-    "content": "iPhone 15 Pro发热严重 只因苹果不重视散热 news.qq.com",
-    "sentiment": "负面",
-    "publish_time": "2023-09-27",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BYWdKb2ZGeVBmcVpKYXg2bENSY1FrS181eWlQcGhXcm5LanlYdkRIZ1NXTFFaeVRqOF9GMVREd3I4QXZsckRRaDJmcUFVT0JJU0YtMXBR?oc=5",
-    "crawl_time": "2026-06-28 17:09:42"
-  },
-  {
+    "category": "手机",
     "platform": "新浪财经",
     "keyword": "iPhone 17 Pro 拍照",
     "title": "测评结论：2026年苹果旗舰手机值得优先选购，体验提升35% - 新浪财经",
@@ -207,9 +118,10 @@
     "sentiment": "正面",
     "publish_time": "2026-06-04",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblIwOE13RFRfYlBnb3NYeEk5ZlR6YTZRTmRlQ2JyNUlyTnJXaXlQWHZsU29XR1dkZ2ctcUdlSTljYVUwcks1RWtscWVJM0t0NGVCblJjLVhEb0tldURQa3A4d2Q3OTBSNHRfbTRMckNRVXA3clFlSFdrbW9RdE92M0NKVHU?oc=5",
-    "crawl_time": "2026-06-28 17:09:47"
+    "crawl_time": "2026-06-28 17:19:41"
   },
   {
+    "category": "手机",
     "platform": "太平洋科技",
     "keyword": "iPhone 17 Pro 拍照",
     "title": "iPhone 18 Pro相机键大精简！告别华而不实，回归纯粹拍摄体验 - 太平洋科技",
@@ -217,49 +129,10 @@
     "sentiment": "中性",
     "publish_time": "2026-04-10",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GYWtyYWxveHpicEVYX29oUUZ4ZmJqT1I4OU41bVdQSXFzTkowcHZMeFdsNkZlVnVsSm5MNzJyQ0VoaUU0dGdYbDF6SFFfdlN2Y2E1VXBsMGxJS1ppaEE?oc=5",
-    "crawl_time": "2026-06-28 17:09:47"
+    "crawl_time": "2026-06-28 17:19:41"
   },
   {
-    "platform": "维科号",
-    "keyword": "iPhone 17 Pro 拍照",
-    "title": "「外挂镜头」成为新趋势：国产手机影像方案，正在被iPhone效仿？ - 维科号",
-    "content": "「外挂镜头」成为新趋势：国产手机影像方案，正在被iPhone效仿？ 维科号",
-    "sentiment": "中性",
-    "publish_time": "2026-02-03",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NUE1OWUlKSGNPTEozS09fOTl4RGp5SXkxSWduUGNDNUtXY0FWeGpRQjExejhPS1U3aEt0SWVhRFRSSkhWaWlzTjVzTWpldTRBX0JMOA?oc=5",
-    "crawl_time": "2026-06-28 17:09:47"
-  },
-  {
-    "platform": "آي-فون إسلام",
-    "keyword": "iPhone 17 Pro 拍照",
-    "title": "我曾无比热爱它，却又放弃了它……我为什么放弃了 iPhone 17 Pro Max，转而回到过去？ - آي-فون إسلام",
-    "content": "我曾无比热爱它，却又放弃了它……我为什么放弃了 iPhone 17 Pro Max，转而回到过去？ آي-فون إسلام",
-    "sentiment": "中性",
-    "publish_time": "2026-01-06",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzIxaG9zT2E0d0h5SFVTeUVHZWVGUVV2Sno0bmRwQXlzSkpWMFplLU9KdlpSUnNPcWNjallNN3RYcmFkaUZfRWRjMUloZDhyazk1TWdrUDB1QUxuQ0ZoOWR4LVB4YmhrZ0d3bFFZZXdSbnpuWVpZa0phdlBkRVBjRUZXbDExb0J0RFAyZ1RNVWpUMzlLRS1ENl9vLVo2V3hjNEs5LUdjY1hrYnZyWlVCbEh5RzRlckRsa01tNE0tR2lyY2ZpeV9qa1hQTmtWNFJZSXRCeTVEbDdWUQ?oc=5",
-    "crawl_time": "2026-06-28 17:09:47"
-  },
-  {
-    "platform": "17173",
-    "keyword": "iPhone 17 Pro 拍照",
-    "title": "iPhone 17/17 Pro体验对比 这3000我建议你别花 - 17173",
-    "content": "iPhone 17/17 Pro体验对比 这3000我建议你别花 17173",
-    "sentiment": "中性",
-    "publish_time": "2025-10-02",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wVE9DbDFhZG95V0tHQXJkYTdSbjFrWlhYNmkyb2c3Z0xyY0g2Y085S3VfRjN6TmdVelRVTFQzQXlxckNoaXBlaUZVT2Y2Q3JsVHMybUs0N2hmWS01a1BxNURDWkY?oc=5",
-    "crawl_time": "2026-06-28 17:09:47"
-  },
-  {
-    "platform": "آي-فون إسلام",
-    "keyword": "iPhone 17 Pro 拍照",
-    "title": "关于 iPhone 17 Pro 相机你需要知道的一切 - آي-فون إسلام",
-    "content": "关于 iPhone 17 Pro 相机你需要知道的一切 آي-فون إسلام",
-    "sentiment": "中性",
-    "publish_time": "2025-09-19",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWlByUEo0QTlseXAtZVFPTmREVFRTa3Azb0F2ZXhVbV9Qc0JsWjlQNjZHUWNGdjMtQW42cEJ2UnpGeXNPMzJ1cm9uaWxITUF0eF82LVhuaW1CNUFaRUItZ1NKbHZNXzdZclBzdXBTTDVtX2JLQTVEMlc1VGNUUDQyWERZdmNTOUdmOTM3cy1palp0Z0dzbFhzaHhBRmFBSm9PUWJXZ1lXMA?oc=5",
-    "crawl_time": "2026-06-28 17:09:47"
-  },
-  {
+    "category": "手机",
     "platform": "新浪财经",
     "keyword": "iPhone 17 Pro Max 信号",
     "title": "苹果iPhone 17 Pro Max手机的缺点有哪些？ - 新浪财经",
@@ -267,9 +140,10 @@
     "sentiment": "中性",
     "publish_time": "2026-06-27",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWVJBOVg5LTIwVUlNXzVfUnpOV0JiaUIwQXI5aXVjd1JuMm96Z25vUzViN3BEV0tXeE9pUGNZZTRkRG1ZWlhlM2xNWm1DQjNnZGRYQXNhOHdBQXk1YTBWQzRSY255eHExc3VOYllNSGp4TVdGTDhUMFpHM0Z3SzltcFJ4YlE?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
+    "crawl_time": "2026-06-28 17:19:46"
   },
   {
+    "category": "手机",
     "platform": "搜狐网",
     "keyword": "iPhone 17 Pro Max 信号",
     "title": "苹果不是要涨价吗？iPhone 17 Pro Max突然大降价，有点看不懂了 - 搜狐网",
@@ -277,9 +151,10 @@
     "sentiment": "中性",
     "publish_time": "2026-06-23",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUDc2ejBtZXcwSnhleVZaaEtQMnhkMS1UNmhiSWFjX3E3dm1MODJGcXpOUy0tWFdMNkNDUm93RnNwWFdkaDdlNWFCTlBVWXBHQlRFNU1EQjNrWUQ5MWhkUDlWaDZOZzI0Z1d0ZTdtSEUyZXFPV19xZkVfXzRrYnZsQ3VHWGZ5UjBxN0I4VQ?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
+    "crawl_time": "2026-06-28 17:19:46"
   },
   {
+    "category": "手机",
     "platform": "中关村在线",
     "keyword": "iPhone 17 Pro Max 信号",
     "title": "iPhone 18 Pro Max真机长这样？曝光配置抢先看 - 中关村在线",
@@ -287,9 +162,10 @@
     "sentiment": "中性",
     "publish_time": "2026-06-18",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1eDd5VFk5T3dmUXpfb3NYSnZnMkN2Tk5fT0ljTU9RZnptTVVWOE4xS1V0cUxyV1U3M0lDeGtKYVJ4UmlBVUNteVdPNEVDRzJEbVFxZmJuRQ?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
+    "crawl_time": "2026-06-28 17:19:46"
   },
   {
+    "category": "手机",
     "platform": "新浪财经",
     "keyword": "iPhone 17 Pro Max 信号",
     "title": "iPhone 17 Pro Max改用自研C1基带后，信号表现相比之前提升了多少？ - 新浪财经",
@@ -297,9 +173,10 @@
     "sentiment": "正面",
     "publish_time": "2026-06-23",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNERfTV9yYVA3WUNZVmVFakowMFoxTF9fNUtBVXVDcXpQS3RrWXBZbnBxMDd6SVdlTV84ZDBqRjNLeC1EcFl2ZW9OR0ZFaTdPb2RTbWNGZVdjNFRIb09xbFRLa2UxUmRpZjJOOUFnS2dVRks4Y2lNalFkd3RMVTZrX2FuRHg?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
+    "crawl_time": "2026-06-28 17:19:46"
   },
   {
+    "category": "手机",
     "platform": "news.qq.com",
     "keyword": "iPhone 17 Pro Max 信号",
     "title": "苹果 iOS 27 升级 AirPods 体验：Siri AI、心率同步、精准查找等 - news.qq.com",
@@ -307,49 +184,10 @@
     "sentiment": "中性",
     "publish_time": "2026-06-18",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zT3A4QW14MWh4QmlXRC16emxoc2t4cTJ2MDJ3Sjh1ZEZ0c1RLQnpobEpkck1EeEN4Uy00YnpKWlBwQWE0SDlPUU5PU3pHenlHMDREaEln?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
+    "crawl_time": "2026-06-28 17:19:46"
   },
   {
-    "platform": "投中",
-    "keyword": "iPhone 17 Pro Max 信号",
-    "title": "iPhone 17“大冒险”：史上最薄、AI缺席，果粉买单吗？ - 投中",
-    "content": "iPhone 17“大冒险”：史上最薄、AI缺席，果粉买单吗？ 投中",
-    "sentiment": "中性",
-    "publish_time": "2025-09-10",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtZ2Z3RUZpb3poREZ6QVE2YTduNG9tTlpyZlEtMmNXclZvSzhJWXlIaVVYRHZGenVPM3pwSlZpaW01WVd4TmwxZUtMQjl5aEZIcUNWYnNNemcwVlViOEVock5nWDhGUjBqVXc?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
-  },
-  {
-    "platform": "爱范儿",
-    "keyword": "iPhone 17 Pro Max 信号",
-    "title": "iPhone 17，会成为新一代钉子户吗？｜选购指南 - 爱范儿",
-    "content": "iPhone 17，会成为新一代钉子户吗？｜选购指南 爱范儿",
-    "sentiment": "中性",
-    "publish_time": "2025-09-15",
-    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBmc05MU0kzcTFMd21UVkwyYjRBZjVxalE4V2dmNmpZRDlHOHJPNC1oY25HdGNETEhvczlEdnh0M1oybkE?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
-  },
-  {
-    "platform": "17173",
-    "keyword": "iPhone 17 Pro Max 信号",
-    "title": "手上的苹果17不香了 iPhone 18系列终极汇总 - 17173",
-    "content": "手上的苹果17不香了 iPhone 18系列终极汇总 17173",
-    "sentiment": "中性",
-    "publish_time": "2026-06-12",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hcEsxMnQ5bUxRaGU1ZzI5ajc5ZnhpcjdRY212MlZTOUhPaGZNZ1JZYmtJcnl3UVk1SVJVaXIyZ2V0MFJNYjJkVWRwVlltMzFCd0FnWW42UkhoWDNJTlU2NDRzMlI?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
-  },
-  {
-    "platform": "搜狐网",
-    "keyword": "iPhone 17 Pro Max 信号",
-    "title": "iPhone 18 Pro首发自研C2基带：根治信号顽疾 高通被踢出果链 - 搜狐网",
-    "content": "iPhone 18 Pro首发自研C2基带：根治信号顽疾 高通被踢出果链 搜狐网",
-    "sentiment": "中性",
-    "publish_time": "2026-06-09",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JSXE2Z2tFSlRzc1E1NC10a3l6dmRZNEozblY4Q04tNVEwV2dYdFM2b0gwYnZ2UDZEd2kxeGhyVmVzU25CQ1pZLVVOeGhxTmF5YVE?oc=5",
-    "crawl_time": "2026-06-28 17:09:52"
-  },
-  {
+    "category": "手机",
     "platform": "新浪财经",
     "keyword": "iPhone 17 Air 手感",
     "title": "时隔三年用回iPhone：iOS依然丝滑，但不再断代领先安卓旗舰 - 新浪财经",
@@ -357,9 +195,21 @@
     "sentiment": "中性",
     "publish_time": "2026-06-25",
     "url": "https://news.google.com/rss/articles/CBMi2ARBVV95cUxQMUhQcG1WOG9GNVlCbmpkdjFaeFg3bVVSb2Q3LXNRQ1V3S1JXU0t6S3ZVRlI0WTBTUXhYdjFqU2l6TUJveThHWWVleFh2YWtZNV9meGxMZXdHUUsyWlpjamF1eDlOQ0pCalAxX1pZdng5VlNzOHpnUUN1MlpkMXYxZ3FPbE91UGhRYVdPazVKT01sUG1lci1uUkNlSGxnN1J0TjRXOXFZRUtseUVHU3p3YnI3VVhFWVNMSXB5bkh2R2p6RUZ3M0ZsZ2J3N1pYa0JQbHB0MDJTYkhob0JndzVDbDV3UDZzcDlnNXZPQzdPejBNczEtMlFqdFBHWldBWDN4RlNsWkxEeW5OekFwaDltczQteERoMzI4cl9nZ0JQN1BnbmJYQWJPQWtjdGdteHk5RXhLazdDUXBRT3FTbEtaQTBTU2cyTmNNQjJIR19GTkI1SG5rdGVwX2NtV2t4NER2djczRU1RN29Ja3lhdDI5SnRud0FXUFV0WDNCUDMwSE5PYThvZ05wbWN2OTFRTjBBWC1jX2VEX3ZLMzNScm1vVEdRcm1KMXE3WlU0Vnk1dFQ0VlhfeXh0XzNQNzlOZHZnM0tWdnlGSkxTdXkyVnNLYmh2dk5sS0gyQ1JUVzg2WXlJTWtyS1lITzEyNEFEdEtyODVBdGRtbFJZZVphRXBVWFMwRE1mcjhhdmFodXZvMEhuWDVjNVdpQy1XZ19mM1JhNDJNbWpOYklpNjE5X21QUTBLM09RX2wxTzlqU1l3ck1MQkhuXzJtZmVEX3Rhd2FzdFBJb0ZkeXY?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "crawl_time": "2026-06-28 17:19:52"
   },
   {
+    "category": "手机",
+    "platform": "36氪",
+    "keyword": "iPhone 17 Air 手感",
+    "title": "iPhone Air上手体验：苹果把手机打造成艺术品 - 36氪",
+    "content": "iPhone Air上手体验：苹果把手机打造成艺术品 36氪",
+    "sentiment": "中性",
+    "publish_time": "2025-11-06",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUHh5TzRzRl9GSVVnYkFTZkNZYnQ0cURtMHVyMG8zVkJ3SHdRdVNJWVNVWF9BUXZQU2dfT3JEUF9tQnFZR2UyMW5GWm40TjNlWVJN?oc=5",
+    "crawl_time": "2026-06-28 17:19:52"
+  },
+  {
+    "category": "手机",
     "platform": "中关村在线",
     "keyword": "iPhone 17 Air 手感",
     "title": "iPhone Air真香 但我还是想劝你等国产 - 中关村在线",
@@ -367,9 +217,10 @@
     "sentiment": "中性",
     "publish_time": "2025-09-10",
     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mODRKS0MzZU1aUGd4QXlOcmVrZ0s0RUV0Yi1hbnRPQ1dGMzBHOHhaeUFqSjFmZHBmWU93QmFTOFNOSlVscVl1V0RUOGVqOXphOU1yZGp3WQ?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "crawl_time": "2026-06-28 17:19:52"
   },
   {
+    "category": "手机",
     "platform": "驱动之家",
     "keyword": "iPhone 17 Air 手感",
     "title": "iPhone Air卖不动了！杭州部分经销商降价100元开售：黑、白配色均“破发” - 驱动之家",
@@ -377,46 +228,545 @@
     "sentiment": "中性",
     "publish_time": "2025-10-26",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqaG1NbDJGb0w2RzdEOU1kY3lEU0pPYXB5cXpFRVRTdWN0bzVRQzhhOU5KNVc5ZnZWbUJCNXd3VXlrLU0wcUVsYzVqQ1RqQ3lUMVBacTctM3I?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "crawl_time": "2026-06-28 17:19:52"
   },
   {
-    "platform": "news.qq.com",
-    "keyword": "iPhone 17 Air 手感",
-    "title": "iPhone Air零售版全面评测 美丽小废物 - news.qq.com",
-    "content": "iPhone Air零售版全面评测 美丽小废物 news.qq.com",
+    "category": "手表",
+    "platform": "新浪财经",
+    "keyword": "Apple Watch Series 11 健康功能",
+    "title": "2026 年智能手表选购避坑指南:按手机品牌选,体验翻倍 - 新浪财经",
+    "content": "2026 年智能手表选购避坑指南:按手机品牌选,体验翻倍 新浪财经",
     "sentiment": "中性",
-    "publish_time": "2025-10-25",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04NS02UDU0ZmZJSm1IcUxiY0ROTndsSG1qbU56aUVPSHdKYk5XMzVjdXNhQktubVpPYzNBOFVobG94QmluVGR2ZWR6ZzU1RUIxaHVEcE5R?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "publish_time": "2026-06-24",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zZlJhbEtUM2NIS0piQThSa1FhbURZQkFBM3IyaXVacUxhNGhGYmc4UWNQVzAxMURIWnlIeTdfUTJubFpSaFIyV0pHdExLUXZndnZpN2xFc2JSalc1Q3ZxSjNrSERqQ3NxS3JaRTFNMXp6QQ?oc=5",
+    "crawl_time": "2026-06-28 17:19:58"
   },
   {
-    "platform": "维科号",
-    "keyword": "iPhone 17 Air 手感",
-    "title": "史上最轻最薄iPhone？17 Air曝光：真香or智商税？ - 维科号",
-    "content": "史上最轻最薄iPhone？17 Air曝光：真香or智商税？ 维科号",
+    "category": "手表",
+    "platform": "中关村在线",
+    "keyword": "Apple Watch Series 11 健康功能",
+    "title": "2026智能手表性价比推荐 老年人健康监护首选 - 中关村在线",
+    "content": "2026智能手表性价比推荐 老年人健康监护首选 中关村在线",
     "sentiment": "中性",
-    "publish_time": "2025-07-18",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5xMU9paGxjQzJYaTFSSlJLOFdXdGU3TTRXdXFNcnZUcDhScFJQV1VaVU9Rd0JsSVpDckQzc1I2SG9MZ2hnM2JwSXhKWm15VzA?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "publish_time": "2026-06-26",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9CR0VvM1lSZnNrcVFGcHVOWXlJMF96UzU2ODQ3cGlSQXNCd3FMejRGamlTMThqSlZmbjhya2RhVjZLMzNQSUpxSFd6Z0w1eFNuQ2tOVXZ3WQ?oc=5",
+    "crawl_time": "2026-06-28 17:19:58"
   },
   {
-    "platform": "华人头条",
-    "keyword": "iPhone 17 Air 手感",
-    "title": "必看！9月12日上市！新加坡苹果17购机全攻略，看看哪一款最值得买！_福建_新闻 - 华人头条",
-    "content": "必看！9月12日上市！新加坡苹果17购机全攻略，看看哪一款最值得买！_福建_新闻 华人头条",
+    "category": "手表",
+    "platform": "17173",
+    "keyword": "Apple Watch Series 11 健康功能",
+    "title": "Apple Watch Series 11 亚马逊 Prime 会员日降至历史最低价 - 17173",
+    "content": "Apple Watch Series 11 亚马逊 Prime 会员日降至历史最低价 17173",
     "sentiment": "中性",
-    "publish_time": "2025-09-11",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50RU8tbU5sbXpjNUcyRlU5RklRWVNGNWdUSVJUaVU5R0EzUWZlNHZtQjZjOGJFdDhwNml5RmEybF92WTFNeTBiT1owczM3RERoeXRKb2FlTWpFXzBfZUE?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "publish_time": "2026-06-22",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WZUVHeUFqMWtoVkUyZ2hLYlBNZElMZHpzZ0VJcU5lQXhqbVBPdHlEM3VYN3RkT3RCbXIzclEtREZHOWszT1IxMkpFZXJaQU5GQ2EtZncyZ1hsc0lhbEhDamRNaUU?oc=5",
+    "crawl_time": "2026-06-28 17:19:58"
   },
   {
+    "category": "手表",
+    "platform": "آي-فون إسلام",
+    "keyword": "Apple Watch Series 11 健康功能",
+    "title": "watchOS 27 泄露：Apple Watch 即将推出的新功能，重点关注人工智能和健康| iPhone Islam - آي-فون إسلام",
+    "content": "watchOS 27 泄露：Apple Watch 即将推出的新功能，重点关注人工智能和健康| iPhone Islam آي-فون إسلام",
+    "sentiment": "负面",
+    "publish_time": "2026-06-02",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVzhtQUtXNTZ4VkFvNm10MnVTWHFNRVBaRjVCS00zazZORFd6YkczczNXQ2ZweExNMjhKTEJEdGdiUG16VnFUTGIzNDhyakRsMHF6YXlGN3I3blNpOTV6OW0yQnpkc1lSRlVXLWtINFpHOTZ6cWFVTXcwYXo3cVh3RmhVdEhvYnZ4OUV2YQ?oc=5",
+    "crawl_time": "2026-06-28 17:19:58"
+  },
+  {
+    "category": "手表",
+    "platform": "品玩",
+    "keyword": "Apple Watch Series 11 健康功能",
+    "title": "现在，或许就是入手 Apple Watch 的最佳时机 - 品玩",
+    "content": "现在，或许就是入手 Apple Watch 的最佳时机 品玩",
+    "sentiment": "中性",
+    "publish_time": "2025-11-04",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuOWZUNEllM0NRUm1IN0VWbER0WU1pdFpVMFl4RVhjRXVUSHZMX2xFUV9zRlpodnJoZENNNGhxc1dzWWpMZ2xhLQ?oc=5",
+    "crawl_time": "2026-06-28 17:19:58"
+  },
+  {
+    "category": "手表",
+    "platform": "中关村在线",
+    "keyword": "Apple Watch Series 11 运动体验",
+    "title": "智能手表销量排行榜 青少年安全守护与体能训练兼得 - 中关村在线",
+    "content": "智能手表销量排行榜 青少年安全守护与体能训练兼得 中关村在线",
+    "sentiment": "中性",
+    "publish_time": "2026-06-22",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhS2lsaS03djNtRzZTTjJ3MWtGdG9Ud1lqbnVaMmktTDZXVkd2cEo0Q18zU0lGd20tdUhERm5QNExsOVduaE5vd19ycThIYUluc0FrblBrZw?oc=5",
+    "crawl_time": "2026-06-28 17:20:03"
+  },
+  {
+    "category": "手表",
+    "platform": "新浪财经",
+    "keyword": "Apple Watch Series 11 运动体验",
+    "title": "苹果发布新一代Apple Watch系列：售价399美元起，新增高血压监测及卫星通信功能 - 新浪财经",
+    "content": "苹果发布新一代Apple Watch系列：售价399美元起，新增高血压监测及卫星通信功能 新浪财经",
+    "sentiment": "中性",
+    "publish_time": "2025-09-10",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDbW5iUTNPTXp6Q0hWb3JPeFVlRDN2cGlITzA2dnBVVWxPVDhCTEV3ZzZuZThWaWItWEFRYlRoTnIwcVRNSDBzZnRoQnRKY1cxSnk4TGlTR2lNU3huVWJvamFBdzVnd0hYUmpWdG9pcmh0UDg1R1NzaUtPUTQ?oc=5",
+    "crawl_time": "2026-06-28 17:20:03"
+  },
+  {
+    "category": "手表",
     "platform": "爱范儿",
-    "keyword": "iPhone 17 Air 手感",
-    "title": "拆解新 iPhone 的「高原」设计，以及「可替换电池」的线索 - 爱范儿",
-    "content": "拆解新 iPhone 的「高原」设计，以及「可替换电池」的线索 爱范儿",
+    "keyword": "Apple Watch SE 3 续航",
+    "title": "当 Apple Watch 成为千元机 | Apple Watch 2025 系列评测 - 爱范儿",
+    "content": "当 Apple Watch 成为千元机 | Apple Watch 2025 系列评测 爱范儿",
     "sentiment": "中性",
-    "publish_time": "2025-09-27",
-    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE45RFl3Z2xqTDVkakplYVljbnVDajVnTDgzX0VkUndwMEFGNlNqT2FxV21rbzdxUFFSQVdOLUE3cFQtWWc?oc=5",
-    "crawl_time": "2026-06-28 17:09:57"
+    "publish_time": "2025-09-16",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5vaUhZaWg4NlRwRTJsSnY3ek5rTHFCUzFiQVpEYXZZdEw5eks3Zk5oVHhzUllMRHBkbTZZNmNVTlJRRkE?oc=5",
+    "crawl_time": "2026-06-28 17:20:09"
+  },
+  {
+    "category": "手表",
+    "platform": "中关村在线",
+    "keyword": "Apple Watch SE 3 续航",
+    "title": "2026续航智能手表排行榜 户外探险者7-14天超长待机首选 - 中关村在线",
+    "content": "2026续航智能手表排行榜 户外探险者7-14天超长待机首选 中关村在线",
+    "sentiment": "中性",
+    "publish_time": "2026-06-24",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43bGpscFVTZmJud3psUWdYUmtfcTNFLTZINUhMTXFjSkhsUlIzT1B4QmRHYmZrVTFDdmxUeGZIV1dWcmFINlphMktiOGk1S0pPbjdqV1NjOA?oc=5",
+    "crawl_time": "2026-06-28 17:20:09"
+  },
+  {
+    "category": "手表",
+    "platform": "科客",
+    "keyword": "Apple Watch SE 3 通讯功能",
+    "title": "OPPO Watch一周体验评测：三大特色创新连果粉也羡慕 - 科客",
+    "content": "OPPO Watch一周体验评测：三大特色创新连果粉也羡慕 科客",
+    "sentiment": "中性",
+    "publish_time": "2025-11-13",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uTm9mMUdOM3lOeWZkSDFzY2pfNTdRQ1FpSldGY1YyUU1ZWnNxVkZCLVA5OEZ6amNFazBvN1REbnhTQnJ4b2VmMHF3cVM5R0RlaVZDQXJaV3pnUQ?oc=5",
+    "crawl_time": "2026-06-28 17:20:14"
+  },
+  {
+    "category": "手表",
+    "platform": "news.zdwang.com",
+    "keyword": "Apple Watch SE 3 通讯功能",
+    "title": "Apple Watch Ultra 3规格功能亮点曝光- 数码科技 - news.zdwang.com",
+    "content": "Apple Watch Ultra 3规格功能亮点曝光- 数码科技 news.zdwang.com",
+    "sentiment": "中性",
+    "publish_time": "2025-04-29",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PalJTcS1tYmR4NWt1RFQtaTdhdDAzU0NEU0hubmJGRDltc3VnNmdzY0xpR2lleE5iQVliT3dwVzFiOEFlbVE2UkJzYkZYMkctcm42SzRZRQ?oc=5",
+    "crawl_time": "2026-06-28 17:20:14"
+  },
+  {
+    "category": "手表",
+    "platform": "搜狐网",
+    "keyword": "Apple Watch SE 3 通讯功能",
+    "title": "港版Apple Watch无法在中国大陆使用蜂窝网络，引发用户关注 - 搜狐网",
+    "content": "港版Apple Watch无法在中国大陆使用蜂窝网络，引发用户关注 搜狐网",
+    "sentiment": "中性",
+    "publish_time": "2024-09-23",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LT1RRZ2dGYUE2bTNydHhKX0N1d2JIWU44czl0S2xtN1hSSDJpYVdRRWM4eHdHbnMxbnhHYzNJbXJIU2ctN3lYLWpmek5nUjJ5NEN0UA?oc=5",
+    "crawl_time": "2026-06-28 17:20:14"
+  },
+  {
+    "category": "手表",
+    "platform": "腾讯新闻",
+    "keyword": "Apple Watch 耐摔",
+    "title": "买对不买贵，华为WATCH FIT系列新品产品力和用户体验完胜苹果，是方表首选 - 腾讯新闻",
+    "content": "买对不买贵，华为WATCH FIT系列新品产品力和用户体验完胜苹果，是方表首选 腾讯新闻",
+    "sentiment": "负面",
+    "publish_time": "2025-05-23",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1tTWJnV3BfWUpBVmtRWGtzc1R6NVNMbFR2ZnRCVmlCbEc5c2hRTVlRcGw1S28yQ2t3b0JydEJSQ25pdHBBMHhxS2t5QmJ6ZlU2VFhFN3dIdFo3SnBhWmRjOGZQTmRhdzNUcUR6TEZVcUN2dHR1S0tR?oc=5",
+    "crawl_time": "2026-06-28 17:20:21"
+  },
+  {
+    "category": "手表",
+    "platform": "腾讯新闻",
+    "keyword": "Apple Watch 耐摔",
+    "title": "Apple WatchS8、S7到底有啥区别，看完这篇你就懂了！ - 腾讯新闻",
+    "content": "Apple WatchS8、S7到底有啥区别，看完这篇你就懂了！ 腾讯新闻",
+    "sentiment": "中性",
+    "publish_time": "2023-03-18",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9samEyT3dVWTJ4NVI5cURhcTBneXlISFRfeTNBT2d5d3ZSaU4wMEdaWS1LYlh6U1BzU2F5TkF5Ym9faENLMll2dVV1TEdqcEhLbXdVeE9XR2s5c29UamwzcXBtS2pXa0pvNWJta3hnaHhtbGE5TWFz?oc=5",
+    "crawl_time": "2026-06-28 17:20:21"
+  },
+  {
+    "category": "平板",
+    "platform": "中关村在线",
+    "keyword": "iPad Air 11 英寸 体验",
+    "title": "哪款平板电脑好用不贵 高刷护眼屏+AI芯片办公新体验 - 中关村在线",
+    "content": "哪款平板电脑好用不贵 高刷护眼屏+AI芯片办公新体验 中关村在线",
+    "sentiment": "中性",
+    "publish_time": "2026-06-28",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0RUZHNzBmZ3Y0RmZMOThXSW1IcFlUaVkxblVXWERjN195aVppWldnaWVmYmlHYTVuRWJIVkZWS1JlZW5GcldVSGlXSk5MY0cxNTZEQ2QxSQ?oc=5",
+    "crawl_time": "2026-06-28 17:20:29"
+  },
+  {
+    "category": "平板",
+    "platform": "新浪网",
+    "keyword": "iPad Air 11 英寸 体验",
+    "title": "苹果发布新一代iPad Air：使用M4芯片 搭载自研无线芯片 - 新浪网",
+    "content": "苹果发布新一代iPad Air：使用M4芯片 搭载自研无线芯片 新浪网",
+    "sentiment": "中性",
+    "publish_time": "2026-03-02",
+    "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxNUzQxOWJHTWF4TjdZQ0czME8tYzVZR2VtRi1mU2FhbnFrMzFxNDhXUmpEUF9vMlRmYXdKME1oZTZJc2NhN2d5TGxTd0IzbEEyOXdzLUJ6TFJNb01oN3dsV3lQRWdlNHZDUTNmemdZd24yaUh6Zzhfb0c4QXFPcFlLQmYzME9vcEtxdzk3UlFLTlZBekdVVExianBpbWlIY2hESWdZY0NKd3M2a0dfamVpYTdiSEtTLUlTNWVXaGh1bmRJX21hZC1mLTY1dnUxWFZGamVpNzdEU0JZRkp2UzFCZFk4QUlsMUpGRXVoNG5RSWxBMnJxSDNXbmFiVDM2SnRDMWE5NVpDbGtxSXFTeDA4bTBkY3JoNkhweGhVc0ZsY18wMDZDUVBvZGsxVUJ6YUd5MDUtMnZjY1JsQzdtbTVHVEJVSHY5RDZaaUcxWHBGQWN0aEJaZmNYRXNUdVMtdTdBY3RpWUV3NjRTQTR2UFRCT1Z6S0dkZnZqSGZaQkNfMGd3VzU2MWdjbFdJYzBmemhXa3NIZmhkam9nRTBvaTdFSXdLM3V6N2liVHpmZERuaUVWdmUxWFR5NW11M1V1WVhSeGdyMTE3VVhpSWx4eFZYMzVUajBJd3lMdnZnMW1CQk4?oc=5",
+    "crawl_time": "2026-06-28 17:20:29"
+  },
+  {
+    "category": "平板",
+    "platform": "驱动之家",
+    "keyword": "iPad Air 11 英寸 体验",
+    "title": "苹果春季新品汇总 iPhone 17e/iPad Air价格香爆了 - 驱动之家",
+    "content": "苹果春季新品汇总 iPhone 17e/iPad Air价格香爆了 驱动之家",
+    "sentiment": "中性",
+    "publish_time": "2026-03-03",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1SF92bXREUUIxbm1BVWhUZElyMlpvRGNDUTZ4Z3dvb3ZCakNKY1NKNlhzVzRXT0xfS29BLXI5YXRFSzQ5MC1ueVAzZEFaUndOcWdTb2ZNejA?oc=5",
+    "crawl_time": "2026-06-28 17:20:29"
+  },
+  {
+    "category": "平板",
+    "platform": "cnBeta.COM",
+    "keyword": "iPad Air 11 英寸 体验",
+    "title": "苹果升级iPad Air 搭载M4 芯片、支持 Wi‑Fi 7 售价不变- Apple iPad - cnBeta.COM",
+    "content": "苹果升级iPad Air 搭载M4 芯片、支持 Wi‑Fi 7 售价不变- Apple iPad cnBeta.COM",
+    "sentiment": "中性",
+    "publish_time": "2026-03-02",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SMVc3SUxNY0dWUkFIX2JFWkJERXFJZTlmanNYaUhqLWJlZGhOUnh3V3ItZ285MjVQTk1HVnR3Y2djemo2Mk9tc3BIMVJnYXF1ZjBWSG5wWXJBYkQ3UTJnNw?oc=5",
+    "crawl_time": "2026-06-28 17:20:29"
+  },
+  {
+    "category": "平板",
+    "platform": "雷科技",
+    "keyword": "iPad Air 11 英寸 体验",
+    "title": "苹果MacBook Air 11吋寿终正寝！平板杀死了小屏笔记本电脑？ - 雷科技",
+    "content": "苹果MacBook Air 11吋寿终正寝！平板杀死了小屏笔记本电脑？ 雷科技",
+    "sentiment": "中性",
+    "publish_time": "2025-09-22",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QUFkyYVJQbHg2ZW9NeW8ycUhRaUF2OEVFN3hRVVdrVUNVWGplTmJIQU16RHY1SDNQNlJ6Q1NoYU5ubXFiZmxoMHVIcWdKdw?oc=5",
+    "crawl_time": "2026-06-28 17:20:29"
+  },
+  {
+    "category": "平板",
+    "platform": "品玩",
+    "keyword": "iPad Pro 11 英寸 性能",
+    "title": "深度测评荣耀MagicPad 3 Pro 12.3：这款新款平板到底香不香？ - 品玩",
+    "content": "深度测评荣耀MagicPad 3 Pro 12.3：这款新款平板到底香不香？ 品玩",
+    "sentiment": "中性",
+    "publish_time": "2026-05-24",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55T1ZaU2JDWWlhWGRlNEJkcTd6V3BTdmlLTGwtX1N1Rkt6NzN5QVFyMm5CcnplekRtd1ZTV3RxUEFmZHpFZWZjMA?oc=5",
+    "crawl_time": "2026-06-28 17:20:36"
+  },
+  {
+    "category": "平板",
+    "platform": "腾讯新闻",
+    "keyword": "iPad Pro 11 英寸 性能",
+    "title": "苹果 M4 iPad Air 跑分出炉：单核持平iPad Pro，多核略逊10%-腾讯新闻 - 腾讯新闻",
+    "content": "苹果 M4 iPad Air 跑分出炉：单核持平iPad Pro，多核略逊10%-腾讯新闻 腾讯新闻",
+    "sentiment": "中性",
+    "publish_time": "2026-03-04",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uS3k4a1A4N0xWU1Y1VG9QYWxhcjJBSGt0OVBFdlVOem1Xb1puZlJ3eVNtV2VkXzZaTnRoVE5VY19nOV9PU2FCd1A2MTk3eU9ZaVJwTzkwcw?oc=5",
+    "crawl_time": "2026-06-28 17:20:36"
+  },
+  {
+    "category": "平板",
+    "platform": "新浪财经",
+    "keyword": "iPad Air 学习 办公",
+    "title": "追剧还是办公?苹果iPad屏幕尺寸到底怎么选?_Air_用户_观影 - 新浪财经",
+    "content": "追剧还是办公?苹果iPad屏幕尺寸到底怎么选?_Air_用户_观影 新浪财经",
+    "sentiment": "中性",
+    "publish_time": "2026-02-02",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS2tjQjRXSEJuYXYxRVVIN3RGMXQ2aTlRUnRpWnhJUF9Od0ZtdmxhWExlM2YwWUhPSUJPQjltMzFTT3RHdF96M3lXZ3RuN3U2bXhLR0lwTlJ5R0p3X0JkTHhiclFLVzZ0SUNoc0dIMFpEVVlPN0E0Rm1aUzhTbGN2VmZiRGk?oc=5",
+    "crawl_time": "2026-06-28 17:20:42"
+  },
+  {
+    "category": "平板",
+    "platform": "雷科技",
+    "keyword": "iPad Air 学习 办公",
+    "title": "华为小米围剿苹果，iPad这次真的没招了？ - 雷科技",
+    "content": "华为小米围剿苹果，iPad这次真的没招了？ 雷科技",
+    "sentiment": "中性",
+    "publish_time": "2025-11-11",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0wUVAwZnllSlNRTV95UkFXYUYzbkZRdWZfQVNGWGJZSXNkcEJUOUk3dGpFaF9BeXl5RXlMLXhXazI2aU9KeUdILW83SVhwdw?oc=5",
+    "crawl_time": "2026-06-28 17:20:42"
+  },
+  {
+    "category": "平板",
+    "platform": "品玩",
+    "keyword": "iPad Air 学习 办公",
+    "title": "升级 iPadOS 16 后，iPad Pro 成为了办公电脑 - 品玩",
+    "content": "升级 iPadOS 16 后，iPad Pro 成为了办公电脑 品玩",
+    "sentiment": "中性",
+    "publish_time": "2022-06-17",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9kOU1JcHBhc09xWTg4b3Bham50cFNMM3dfdlp3MTFOQlJ3QW43cTRLdlJ4M0RnbGVlNmQ4XzFuZnRMeTA3V29iWg?oc=5",
+    "crawl_time": "2026-06-28 17:20:42"
+  },
+  {
+    "category": "平板",
+    "platform": "36 Kr",
+    "keyword": "iPad Air 学习 办公",
+    "title": "大家熟知的苹果iPad系列，为何会成为游戏神器 - 36 Kr",
+    "content": "大家熟知的苹果iPad系列，为何会成为游戏神器 36 Kr",
+    "sentiment": "中性",
+    "publish_time": "2023-02-17",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2SXY1N093TllLdWRHXzR3cjFCOGZXd3RyUWhISXNXUG5hT2gxRXF0ODJVVmNPT2pCZXYwUDlzQ3hyQnNWMVVaVDZRZ2VnZw?oc=5",
+    "crawl_time": "2026-06-28 17:20:42"
+  },
+  {
+    "category": "平板",
+    "platform": "品玩",
+    "keyword": "iPad Pro 绘画 体验",
+    "title": "全面释放生产与创作潜力，全新HUAWEI MatePad Pro 12.2 英寸平板电脑正式发布 - 品玩",
+    "content": "全面释放生产与创作潜力，全新HUAWEI MatePad Pro 12.2 英寸平板电脑正式发布 品玩",
+    "sentiment": "中性",
+    "publish_time": "2025-07-24",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UYVFxMjdLMnRhOE9kRFBMcVVyY3hzeWthZjlPanNQZk51aS00TkNwYjJTVC1xa0RaMVhMa2RyY1dmRktsaEY4ZA?oc=5",
+    "crawl_time": "2026-06-28 17:20:49"
+  },
+  {
+    "category": "平板",
+    "platform": "آي-فون إسلام",
+    "keyword": "iPad Pro 绘画 体验",
+    "title": "iPadOS 26 更新为 iPad 添加了四个新应用 - آي-فون إسلام",
+    "content": "iPadOS 26 更新为 iPad 添加了四个新应用 آي-فون إسلام",
+    "sentiment": "中性",
+    "publish_time": "2025-08-09",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOS0VUMVYzMU1fYXdMS2I2TXZzb0xCX2YwN1RGR1k1a1lWQlNSYmRoUFU1eEtZQ1FLSWZ4ZlI4dXlwZTN2Z19SVGZCSVY2WEx0YTluUmMyN1did0U0bVFqT1RmYkNRdGhPNU1PdlM5MW4tRXNkQ0c5STZ4bXNOVTNDSXlrNlBMTXVIcU5kTXlIUERtXzgwN0VUaHlR?oc=5",
+    "crawl_time": "2026-06-28 17:20:49"
+  },
+  {
+    "category": "平板",
+    "platform": "爱范儿",
+    "keyword": "iPad Pro 绘画 体验",
+    "title": "全新 iPad mini 体验：性能是最大亮点，还有一个「肉眼可见」更新 - 爱范儿",
+    "content": "全新 iPad mini 体验：性能是最大亮点，还有一个「肉眼可见」更新 爱范儿",
+    "sentiment": "中性",
+    "publish_time": "2024-10-23",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE16YURrOC1FVTJMcW5CUk1DNURuQTV1bDBYQjJURlNXQzcxOENHMmM5ckNEeG9CX1BfRlRnNERZa2NORGc?oc=5",
+    "crawl_time": "2026-06-28 17:20:49"
+  },
+  {
+    "category": "平板",
+    "platform": "虎嗅",
+    "keyword": "iPad Pro 绘画 体验",
+    "title": "新款 iPad Pro 首发体验：别再想代替电脑 - 虎嗅",
+    "content": "新款 iPad Pro 首发体验：别再想代替电脑 虎嗅",
+    "sentiment": "中性",
+    "publish_time": "2022-10-24",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJWGJjUnZLSmJQVGRQVjJfTTlqZDNJcnBQVFdIT2pMd2NTZlFYeFA5Mm93TjFuUGRGOU5tSkNCSnBzTUdoem1RWVM0WGR6RUd5?oc=5",
+    "crawl_time": "2026-06-28 17:20:49"
+  },
+  {
+    "category": "平板",
+    "platform": "36 Kr",
+    "keyword": "iPad Pro 绘画 体验",
+    "title": "iPad Air 4 动手玩：首发 A14 芯片还比 iPad Pro 差？ - 36 Kr",
+    "content": "iPad Air 4 动手玩：首发 A14 芯片还比 iPad Pro 差？ 36 Kr",
+    "sentiment": "负面",
+    "publish_time": "2020-10-29",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5sMl82U1NZN1RGZ3lfTk5ubXZoS1c5OHpRNlJYclhvT2NfMkdCM29vdXB3b0I1MWZuOC1SMzVrdm03dXhkSlNSTkdFSEM?oc=5",
+    "crawl_time": "2026-06-28 17:20:49"
+  },
+  {
+    "category": "平板",
+    "platform": "آي-فون إسلام",
+    "keyword": "iPad 续航",
+    "title": "配备 OLED 屏幕的 iPad Mini 会终结电子阅读器的时代吗？ - آي-فون إسلام",
+    "content": "配备 OLED 屏幕的 iPad Mini 会终结电子阅读器的时代吗？ آي-فون إسلام",
+    "sentiment": "中性",
+    "publish_time": "2026-03-13",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaEhMZ0ItbmZUMGRjQzNJQk8xeXlFVHJmS2FSbjNsdG9vejFwU0pYVWV3RklMaVUybm5KZnIxMF9tZzRqWjhlSk11dTlkcUFWTkFpYUpFQmV1S3pfdGtRV1cxWFRaSjUxTFlsRTF2S0JhczQ2aC11U1FHTVV3a0xNYjFXWlNFdw?oc=5",
+    "crawl_time": "2026-06-28 17:20:55"
+  },
+  {
+    "category": "平板",
+    "platform": "雷科技",
+    "keyword": "iPad 续航",
+    "title": "iPad Pro将升级超窄边框，平板界的「六边形战士」？ - 雷科技",
+    "content": "iPad Pro将升级超窄边框，平板界的「六边形战士」？ 雷科技",
+    "sentiment": "中性",
+    "publish_time": "2025-06-25",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBBckVRcWYwaXp5ZDNuQmlWdHBkV0pJMDl1VUwyaWpkdkZTUG11RWNaT1Z1Q0VJT3U5NHJkcnUwMEVhOWRpZG9aX2lvUllwQQ?oc=5",
+    "crawl_time": "2026-06-28 17:20:55"
+  },
+  {
+    "category": "平板",
+    "platform": "爱范儿",
+    "keyword": "iPad 续航",
+    "title": "体验完 Apple Pencil Pro，我发现它才是新 iPad 的灵魂 - 爱范儿",
+    "content": "体验完 Apple Pencil Pro，我发现它才是新 iPad 的灵魂 爱范儿",
+    "sentiment": "中性",
+    "publish_time": "2024-05-17",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBjLXgxaGRjZGR3R1RHUmktbzl6c3hzbWxhOV9oMFNLSU9aR0ZMTzlGemt2RmR1SjFhTUZDUFp2ZXhlOHc?oc=5",
+    "crawl_time": "2026-06-28 17:20:55"
+  },
+  {
+    "category": "平板",
+    "platform": "腾讯新闻",
+    "keyword": "iPad 续航",
+    "title": "2025年iPad Air 11英寸M3版怎么样，一文看懂不踩坑！-腾讯新闻 - 腾讯新闻",
+    "content": "2025年iPad Air 11英寸M3版怎么样，一文看懂不踩坑！-腾讯新闻 腾讯新闻",
+    "sentiment": "中性",
+    "publish_time": "2025-03-16",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oQ1RsckwxNXoxMVo1S3ZHT3V1VVE3X3dwclVQbmw3UHk3OGJENzZtd1ZqZ2R5OW5GWi1ZOERTcUdvOUlfUUUwTGZqN0VwQTZxczJuTWNKZw?oc=5",
+    "crawl_time": "2026-06-28 17:20:55"
+  },
+  {
+    "category": "平板",
+    "platform": "爱范儿",
+    "keyword": "iPad 续航",
+    "title": "第四代 iPad Air 评测：性能向 Pro 看齐，续航比 Pro 更强，为啥有人说不香？ - 爱范儿",
+    "content": "第四代 iPad Air 评测：性能向 Pro 看齐，续航比 Pro 更强，为啥有人说不香？ 爱范儿",
+    "sentiment": "正面",
+    "publish_time": "2020-10-22",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1pUWlfQXE3M3Q2S21ib2U1QzZvMkZxNzRQMlppMk9scWFPdUVrSk9ILUtWaGJVY2NuYy0yUU5tdFlHMDg?oc=5",
+    "crawl_time": "2026-06-28 17:20:55"
+  },
+  {
+    "category": "电脑",
+    "platform": "爱范儿",
+    "keyword": "MacBook Air 续航",
+    "title": "一口气开 60 个应用根本不卡？MacBook Neo 真的很能打！ - 爱范儿",
+    "content": "一口气开 60 个应用根本不卡？MacBook Neo 真的很能打！ 爱范儿",
+    "sentiment": "中性",
+    "publish_time": "2026-03-10",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5WcW9SelBzZVEzU3VFYm1UMWFTU2ZoN2ZPdWU4MGNZQld3enpSSHBMRE8yeWd6MHF3Y1VqZWRGSGl4Q1U?oc=5",
+    "crawl_time": "2026-06-28 17:21:02"
+  },
+  {
+    "category": "电脑",
+    "platform": "腾讯新闻",
+    "keyword": "MacBook Air 续航",
+    "title": "MacBook Air：用长续航给你无负担的使用体验 - 腾讯新闻",
+    "content": "MacBook Air：用长续航给你无负担的使用体验 腾讯新闻",
+    "sentiment": "中性",
+    "publish_time": "2022-10-12",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ITnBEQ3MwTkFJS01DQk1ESGVmVng1NFBzbmtMcVVWMXo5UWU0VEdOUVNmRTFvZHg4d1pYZmplVm8xMWRQNFV4RldId0V1alBEd2REdWR4ZTI4OUt6TFhhYjJnVEFZRmZQRUlxYVJJa0RHSFFnbk44?oc=5",
+    "crawl_time": "2026-06-28 17:21:02"
+  },
+  {
+    "category": "电脑",
+    "platform": "电子工程专辑",
+    "keyword": "MacBook Air 续航",
+    "title": "CPU功耗才7W，笔记本续航为什么不行？Lunar Lake VS Lakefield - 电子工程专辑",
+    "content": "CPU功耗才7W，笔记本续航为什么不行？Lunar Lake VS Lakefield 电子工程专辑",
+    "sentiment": "中性",
+    "publish_time": "2025-01-03",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82bWo4aGM3dk0wLTRHUTRES3VmeTRSNkhBUVk1QW1HMkk3OEdFV0QwRlZJY1d2RlltRDRtRUJESWg2TXNILXMwdTVpUTg3YUN0LWhfbHBUb0ZwU0hn?oc=5",
+    "crawl_time": "2026-06-28 17:21:02"
+  },
+  {
+    "category": "电脑",
+    "platform": "驱动之家",
+    "keyword": "MacBook Air 续航",
+    "title": "今年登场！M4 MacBook Air爆出4大亮点：续航、内存更强大 - 驱动之家",
+    "content": "今年登场！M4 MacBook Air爆出4大亮点：续航、内存更强大 驱动之家",
+    "sentiment": "正面",
+    "publish_time": "2025-01-25",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yQlYzQk0xUTVrSjFuVVVqdTF6akdncFRQUy1tblNqZWdxSjZkclVBdFFwa3huWjV6ZWRXV041V1J0bTVKbUJLNkc4QlcxX3pyU0p4QTNxLWo?oc=5",
+    "crawl_time": "2026-06-28 17:21:02"
+  },
+  {
+    "category": "电脑",
+    "platform": "爱范儿",
+    "keyword": "MacBook Air 续航",
+    "title": "苹果突然发布新款 MacBook Air，最大亮点不是 M3 芯片 - 爱范儿",
+    "content": "苹果突然发布新款 MacBook Air，最大亮点不是 M3 芯片 爱范儿",
+    "sentiment": "中性",
+    "publish_time": "2024-03-04",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBRTFppeTI1U1p3anRxZk9HUFhGTklsYVVYM2xyWDJfMnlTQ2ltQlo3V1RvRTg4NmRDTUx0WHVIUXRra00?oc=5",
+    "crawl_time": "2026-06-28 17:21:02"
+  },
+  {
+    "category": "电脑",
+    "platform": "cnBeta.COM",
+    "keyword": "MacBook Pro 性能",
+    "title": "macOS 27开发者测试版表现惊艳系统整体流畅度明显提升- Apple macOS - cnBeta.COM",
+    "content": "macOS 27开发者测试版表现惊艳系统整体流畅度明显提升- Apple macOS cnBeta.COM",
+    "sentiment": "正面",
+    "publish_time": "2026-06-09",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Z3VDYmdJNkM2aEtDZ3VnTGgxbWpiZUhMMjFrRlk4ZW1Fcjd1ZFE1dkRrX3JrS1NNamQ5SzNBa0NkR3lEQmpCLUw3eEREc29kWnBFS19aY0JHRmlnVzdyTA?oc=5",
+    "crawl_time": "2026-06-28 17:21:08"
+  },
+  {
+    "category": "电脑",
+    "platform": "虎嗅",
+    "keyword": "MacBook Pro 性能",
+    "title": "苹果发布入门款MacBook Neo 售价4599元起 - 虎嗅",
+    "content": "苹果发布入门款MacBook Neo 售价4599元起 虎嗅",
+    "sentiment": "中性",
+    "publish_time": "2026-03-04",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1neFZXcWdILU5qY2trUmd2RlVRVGFGX3FCWjVWYUZtdUJFcloyRGFrTGx5ejVrS1BpQm1PWDdfN1lUeHVjSHVMa3hHZGVjam82c2s3Qg?oc=5",
+    "crawl_time": "2026-06-28 17:21:08"
+  },
+  {
+    "category": "电脑",
+    "platform": "新浪财经",
+    "keyword": "MacBook Pro 性能",
+    "title": "超 100 摄氏度，用户称苹果 M5 Max MacBook Pro 在运行 AI 工作负载时固态硬盘温度失控 - 新浪财经",
+    "content": "超 100 摄氏度，用户称苹果 M5 Max MacBook Pro 在运行 AI 工作负载时固态硬盘温度失控 新浪财经",
+    "sentiment": "中性",
+    "publish_time": "2026-03-29",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lOVczNTlFMV9adGU3dEtsNm0zVjFORUVzUDllblhNV092LVdqM3FBLTU2SzRBMmxYZUJQMUhlcUtFVkhHbTdKNl9XeEo1czk1SGY4dDJBQkJXX0RyWUNJSG9ldEFVbG5CQ3AxS19RVHRPYU1ERlJoVVAzRl9tNGc?oc=5",
+    "crawl_time": "2026-06-28 17:21:08"
+  },
+  {
+    "category": "电脑",
+    "platform": "新浪财经",
+    "keyword": "MacBook Pro 性能",
+    "title": "全新产品MacBook Neo 发布 A18 Pro 芯片 4599 元起售|Apple|笔记本电脑|价格|触控板|键盘_手机新浪网 - 新浪财经",
+    "content": "全新产品MacBook Neo 发布 A18 Pro 芯片 4599 元起售|Apple|笔记本电脑|价格|触控板|键盘_手机新浪网 新浪财经",
+    "sentiment": "中性",
+    "publish_time": "2026-03-04",
+    "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOY3lqWmFJbjB6anc4T2FkNV93OUMxeUEyX09OV3FKMkhzSVJJRWdCOXQ1T3RJTTM5RGc1RmR1cVlwUm50cDNkR1gzWUFTMjhxcldYajVOUjhxMDI0aUVub0paZUtoVlpLR2Q3aVdWbDBVM1ZacGZBTlA1UWJuU1VQbENsbk03RXB6NVFPUl9UcWhRbkZ0ZU50Tk52UGNCMWQtVW10cjA2YkRUNDVUcEZpRXIwcnJOeE4xS0YzMnBpbVVCUHQ5YnZjYUpqeWs1aHNUalJGUGtxSU1Pd2FQVzYxZmd0YVBXT1dDRVZHMUFPWG5oV3RXTGtLVW9PZmJBaGtmQ05KNmJFYmw1VktDVVNXMjhNZDR0Nmt2TGhDV3BIYm5QS2YwTGdsZF9OdE1KeGZGTmlNaGZ1UHFXUm9Ba0FNMk04cVI5SWZj?oc=5",
+    "crawl_time": "2026-06-28 17:21:08"
+  },
+  {
+    "category": "电脑",
+    "platform": "آي-فون إسلام",
+    "keyword": "MacBook Neo 体验",
+    "title": "戴尔瞄准 MacBook Neo，推出 XPS 13 笔记本电脑。 - آي-فون إسلام",
+    "content": "戴尔瞄准 MacBook Neo，推出 XPS 13 笔记本电脑。 آي-فون إسلام",
+    "sentiment": "中性",
+    "publish_time": "2026-06-21",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTREOHBXZVo4LVc5bmZFNUpINEdMc2doUUZuV1RiMmkwcUZYaUFieXEtV2RJYzBHckdOd3hLaS1TZDA0cTV1WFQtaHdBSVFwRXBGcERhNFJ5STNsRWZaYmxNb2VVbWl0eER1OGE1OUNzNzZFRy1zdXdyVWhRRnJtLWZTMEtwSmVrUXFTRmU3SQ?oc=5",
+    "crawl_time": "2026-06-28 17:21:14"
+  },
+  {
+    "category": "电脑",
+    "platform": "驱动之家",
+    "keyword": "MacBook Neo 体验",
+    "title": "设计秒杀苹果MB Neo！4000块的戴尔新款XPS 13上手：目前性价比最高的笔记本 - 驱动之家",
+    "content": "设计秒杀苹果MB Neo！4000块的戴尔新款XPS 13上手：目前性价比最高的笔记本 驱动之家",
+    "sentiment": "中性",
+    "publish_time": "2026-06-04",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXRmJTOUt1T2xKNmV6T3REWEpRRENCNUs5NGVrQ2NXb2owaWJ0X2s2VGRRM3Ftdi0tMmgzUGd3NzVfdHU2RC0tMF9LWWpzaWtWT1A1QmNmVjU?oc=5",
+    "crawl_time": "2026-06-28 17:21:14"
+  },
+  {
+    "category": "电脑",
+    "platform": "品玩",
+    "keyword": "MacBook Neo 体验",
+    "title": "别被 Neo 的低价晃了神，M5 MacBook Air 使用两周后，我想聊聊这笔账该怎么算 - 品玩",
+    "content": "别被 Neo 的低价晃了神，M5 MacBook Air 使用两周后，我想聊聊这笔账该怎么算 品玩",
+    "sentiment": "中性",
+    "publish_time": "2026-04-10",
+    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83RTVtWXNVVjJ0TkxHRVBsTXFSVWhjN1E3RXI3WWRGMVhfOVlHUGJLQ2dBM0tEZFBnbjJGZk1iV0d6S3JCV0JJVA?oc=5",
+    "crawl_time": "2026-06-28 17:21:14"
+  },
+  {
+    "category": "电脑",
+    "platform": "news.qq.com",
+    "keyword": "MacBook Air 学生 购买建议",
+    "title": "3500的Mac mini M4很划算？我劝你冷静 理由有四 - news.qq.com",
+    "content": "3500的Mac mini M4很划算？我劝你冷静 理由有四 news.qq.com",
+    "sentiment": "中性",
+    "publish_time": "2024-11-09",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9QMlp2Z0cycmtPcnFZdk1RTnJJODZnLXpVQW40eTU1Y3VVUExPUHhCNnJLRG9oQ0duR2ZJTjhQczFjdGtKLW9GdzRDdXlZenp1V1NPWDlR?oc=5",
+    "crawl_time": "2026-06-28 17:21:19"
+  },
+  {
+    "category": "电脑",
+    "platform": "万维读者网",
+    "keyword": "MacBook Air 学生 购买建议",
+    "title": "怎样才能买一个性价比最高的笔记本电脑--万维读者网 - 万维读者网",
+    "content": "怎样才能买一个性价比最高的笔记本电脑--万维读者网 万维读者网",
+    "sentiment": "中性",
+    "publish_time": "2026-05-02",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FUmdyQ3JPYTVCbkNGN0oxZFlEUWdOTDRRTWwxY1RnbFFBbTYteXNHT3VsQkQyRGJ5NzlrcEdPY0dxRUN4R3Y1X3ZxTThfNlpjV1ptR2JVTGdkM1U?oc=5",
+    "crawl_time": "2026-06-28 17:21:19"
   }
 ]

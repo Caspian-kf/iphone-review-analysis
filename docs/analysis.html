@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>分析图表 - 手机产品口碑分析与可视化平台</title>
+    <title>分析图表 - 苹果全系列产品口碑采集与可视化分析平台</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body data-page="analysis">
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">口碑分析平台</a>
+        <a class="brand" href="index.html">苹果口碑分析</a>
         <nav class="nav">
           <a href="index.html">首页</a>
           <a href="data.html">数据列表</a>
@@ -22,22 +22,30 @@
     <main class="container">
       <section class="page-title">
         <p class="eyebrow">Visual Analysis</p>
-        <h1>评论分析图表</h1>
-        <p>基于模拟评论数据展示情感占比、平台评论数量和关键词热度分布。</p>
+        <h1>苹果产品口碑分析图表</h1>
+        <p>从情感、产品类别、平台与关键词维度观察公开网页数据分布。</p>
       </section>
 
       <section class="chart-grid">
         <article class="chart-card">
-          <h2>情感占比</h2>
+          <h2>情感占比饼图</h2>
           <div id="sentimentChart" class="chart"></div>
         </article>
         <article class="chart-card">
-          <h2>不同平台评论数量</h2>
+          <h2>不同产品类别数据量</h2>
+          <div id="categoryChart" class="chart"></div>
+        </article>
+        <article class="chart-card">
+          <h2>不同平台数据量</h2>
           <div id="platformChart" class="chart"></div>
         </article>
-        <article class="chart-card chart-wide">
-          <h2>关键词数量统计</h2>
+        <article class="chart-card">
+          <h2>不同关键词数据量</h2>
           <div id="keywordChart" class="chart"></div>
+        </article>
+        <article class="chart-card chart-wide">
+          <h2>各产品类别情感数量对比</h2>
+          <div id="categorySentimentChart" class="chart chart-tall"></div>
         </article>
       </section>
     </main>

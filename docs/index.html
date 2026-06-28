@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>手机产品口碑分析与可视化平台</title>
+    <title>苹果全系列产品口碑采集与可视化分析平台</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body data-page="home">
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html">口碑分析平台</a>
+        <a class="brand" href="index.html">苹果口碑分析</a>
         <nav class="nav">
           <a class="active" href="index.html">首页</a>
           <a href="data.html">数据列表</a>
@@ -21,17 +21,33 @@
 
     <main class="container">
       <section class="hero">
-        <p class="eyebrow">Python 爬虫 · 情感分析 · 可视化展示</p>
-        <h1>手机产品口碑分析与可视化平台</h1>
+        <p class="eyebrow">Python 爬虫 · 多产品口碑 · 可视化分析</p>
+        <h1>苹果全系列产品口碑采集与可视化分析平台</h1>
         <p class="hero-text">
-          本项目用于展示手机产品评论数据的采集、整理、情感分类与图表分析流程。当前版本使用 iPhone 17 系列模拟评论数据，适合作为 GitHub Pages 静态展示页面。
+          本平台面向 iPhone、Apple Watch、iPad 与 MacBook 四类苹果产品，采集公开网页中的标题、摘要、链接和发布时间，进行基础情感分类与多维可视化展示。
         </p>
       </section>
 
       <section class="summary-grid" aria-label="项目数据概览">
         <article class="stat-card">
-          <span class="stat-label">总评论数</span>
+          <span class="stat-label">总数据量</span>
           <strong id="totalReviews">--</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">手机数据量</span>
+          <strong id="phoneCount">--</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">手表数据量</span>
+          <strong id="watchCount">--</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">平板数据量</span>
+          <strong id="tabletCount">--</strong>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">电脑数据量</span>
+          <strong id="computerCount">--</strong>
         </article>
         <article class="stat-card positive">
           <span class="stat-label">正面评价</span>
@@ -46,7 +62,7 @@
           <strong id="negativeReviews">--</strong>
         </article>
         <article class="stat-card">
-          <span class="stat-label">平台数量</span>
+          <span class="stat-label">涉及平台数量</span>
           <strong id="platformCount">--</strong>
         </article>
         <article class="stat-card">
@@ -57,21 +73,25 @@
 
       <section class="panel">
         <div class="section-heading">
-          <h2>项目简介</h2>
-          <p>第一版页面聚焦静态数据展示和基础可视化，后续可扩展真实采集、自动更新和更细粒度的文本分析。</p>
+          <h2>覆盖产品范围</h2>
+          <p>当前版本聚焦公开网页中的资讯、文章与搜索结果摘要，不采集隐私信息，也不访问需要登录或验证码的内容。</p>
         </div>
         <div class="feature-grid">
           <div class="feature-item">
-            <h3>评论数据采集</h3>
-            <p>通过 Python 示例脚本生成结构化评论数据，为真实爬虫逻辑预留数据字段。</p>
+            <h3>iPhone 系列手机</h3>
+            <p>关注续航、发热、拍照、信号和手感等体验关键词。</p>
           </div>
           <div class="feature-item">
-            <h3>情感分类统计</h3>
-            <p>按正面、中性、负面三个分类汇总用户口碑倾向。</p>
+            <h3>Apple Watch 手表</h3>
+            <p>关注健康功能、运动体验、续航、通讯和耐用性。</p>
           </div>
           <div class="feature-item">
-            <h3>多维图表分析</h3>
-            <p>围绕平台、关键词和情感分布展示评论数据概况。</p>
+            <h3>iPad 平板</h3>
+            <p>关注学习办公、绘画体验、性能和续航表现。</p>
+          </div>
+          <div class="feature-item">
+            <h3>MacBook 笔记本</h3>
+            <p>关注续航、性能、购买建议、剪辑和发热表现。</p>
           </div>
         </div>
       </section>

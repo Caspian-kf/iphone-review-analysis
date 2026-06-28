@@ -1,18 +1,34 @@
-# iPhone Review Analysis
+# 基于 Python 爬虫的苹果全系列产品口碑采集与可视化分析平台
 
-手机产品口碑分析与可视化平台是一个基于 Python 爬虫思路的静态展示项目，用于演示手机产品评论数据的采集、整理、情感分类和可视化分析流程。当前版本不连接真实网站，不使用后端框架和数据库，仅通过模拟数据展示第一版 GitHub Pages 页面效果。
+本项目是一个面向 GitHub Pages 的静态展示平台，用于演示苹果多产品线公开网页数据的采集、整理、情感分类与可视化分析流程。当前版本覆盖 iPhone、Apple Watch、iPad 与 MacBook 四类产品，采集公开页面中的标题、摘要、链接和发布时间等信息，不访问需要登录的网站，也不采集个人隐私信息。
+
+## 在线访问地址
+
+GitHub Pages 部署后可通过仓库 Pages 地址访问：
+
+```text
+https://caspian-kf.github.io/iphone-review-analysis/
+```
 
 ## 功能模块
 
-- 首页仪表盘：展示总评论数、正面评价、中性评价、负面评价、平台数量和最近采集时间。
-- 数据列表：从 `data/reviews.json` 读取评论数据，并支持关键词搜索、情感分类筛选和平台筛选。
-- 分析图表：使用 ECharts 展示情感占比、平台评论数量和关键词数量统计。
-- 示例爬虫脚本：通过 `crawler/run.py` 生成 JSON 和 CSV 示例数据。
+- 首页仪表盘：展示总数据量、各产品类别数据量、情感数量、平台数量和最近采集时间。
+- 数据列表：展示采集数据，支持按产品类别、平台、情感和关键词筛选。
+- 分析图表：使用 ECharts 展示情感占比、产品类别分布、平台分布、关键词分布和各产品类别情感对比。
+- 数据采集：使用 Python `requests + BeautifulSoup` 采集公开 RSS/搜索结果中的结构化信息。
+
+## 覆盖产品范围
+
+- 手机：iPhone 系列手机
+- 手表：Apple Watch 系列手表
+- 平板：iPad 系列平板
+- 电脑：MacBook 系列笔记本电脑
 
 ## 技术栈
 
 - Python
-- Pandas
+- requests
+- BeautifulSoup4
 - HTML5
 - CSS3
 - JavaScript
@@ -29,7 +45,8 @@ iphone-review-analysis/
 ├── crawler/
 │   └── run.py
 ├── data/
-│   └── reviews.json
+│   ├── reviews.json
+│   └── reviews.csv
 └── docs/
     ├── index.html
     ├── data.html
@@ -48,23 +65,31 @@ iphone-review-analysis/
 pip install -r requirements.txt
 ```
 
-生成示例数据：
+运行采集脚本：
 
 ```bash
 python crawler/run.py
 ```
 
-启动本地静态服务后访问 `docs/index.html`。例如在项目根目录运行：
+启动本地静态服务：
 
 ```bash
 python -m http.server 8000
 ```
 
-然后打开：
+访问页面：
 
 ```text
 http://localhost:8000/docs/index.html
 ```
+
+## 数据采集流程
+
+1. 在 `crawler/run.py` 中按产品类别维护关键词。
+2. 通过公开 RSS/搜索结果页获取标题、摘要、链接和发布时间。
+3. 使用简单关键词规则判断情感分类。
+4. 将结果保存到 `data/reviews.json` 和 `data/reviews.csv`。
+5. 前端页面通过 `../data/reviews.json` 读取数据并渲染表格与图表。
 
 ## GitHub Pages 部署方式
 
@@ -75,17 +100,15 @@ http://localhost:8000/docs/index.html
 5. 分支选择 `main`，目录选择 `/docs`。
 6. 保存后等待 GitHub Pages 自动部署。
 
-部署完成后即可访问 GitHub Pages 提供的网址。
-
 ## 后续优化方向
 
-- 接入真实公开页面采集逻辑，增加请求限速和异常处理。
-- 增加数据清洗、去重和关键词提取能力。
-- 引入更完善的中文情感分析模型。
-- 增加品牌、机型、价格区间等更多维度的筛选。
-- 增加词云、时间趋势图和评论详情页。
-- 增加自动化数据更新流程。
+- 引入更稳定的数据源配置和采集日志。
+- 增加数据去重、清洗和异常摘要过滤。
+- 使用更精细的中文情感分析模型。
+- 增加时间趋势、平台趋势、产品型号对比等图表。
+- 支持按日期范围、产品型号和平台组合筛选。
+- 通过 GitHub Actions 定时更新公开数据。
 
 ## 免责声明
 
-本项目仅用于学习与研究，采集公开页面信息，不用于商业用途。实际采集时请遵守目标网站的 robots 协议、用户协议和相关法律法规。
+本项目仅用于学习与研究，采集公开页面信息，不用于商业用途；不采集隐私信息，不绕过登录、验证码或反爬机制。实际使用时请遵守目标网站的 robots 协议、用户协议和相关法律法规。

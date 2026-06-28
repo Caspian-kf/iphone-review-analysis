@@ -1,4 +1,5 @@
 const DATA_URLS = ["../data/reviews.json", "data/reviews.json"];
+const CATEGORIES = ["手机", "手表", "平板", "电脑"];
 const SENTIMENTS = ["正面", "中性", "负面"];
 
 async function loadReviews() {
@@ -29,10 +30,24 @@ function countByField(reviews, field) {
   }, {});
 }
 
+function countSentimentByCategory(reviews) {
+  return CATEGORIES.reduce((result, category) => {
+    result[category] = SENTIMENTS.reduce((sentimentMap, sentiment) => {
+      sentimentMap[sentiment] = reviews.filter(
+        (item) => item.category === category && item.sentiment === sentiment
+      ).length;
+      return sentimentMap;
+    }, {});
+    return result;
+  }, {});
+}
+
 function getStats(reviews) {
+  const categoryCounts = countByField(reviews, "category");
   const sentimentCounts = countByField(reviews, "sentiment");
   const platformCounts = countByField(reviews, "platform");
   const keywordCounts = countByField(reviews, "keyword");
+  const categorySentimentCounts = countSentimentByCategory(reviews);
   const latestCrawlTime = reviews
     .map((item) => item.crawl_time)
     .filter(Boolean)
@@ -41,14 +56,13 @@ function getStats(reviews) {
 
   return {
     total: reviews.length,
-    positive: sentimentCounts["正面"] || 0,
-    neutral: sentimentCounts["中性"] || 0,
-    negative: sentimentCounts["负面"] || 0,
-    platformCount: Object.keys(platformCounts).length,
-    latestCrawlTime: latestCrawlTime || "--",
+    categoryCounts,
     sentimentCounts,
     platformCounts,
     keywordCounts,
+    categorySentimentCounts,
+    platformCount: Object.keys(platformCounts).length,
+    latestCrawlTime: latestCrawlTime || "--",
   };
 }
 
@@ -64,9 +78,13 @@ function renderHome(reviews) {
   const stats = getStats(reviews);
 
   setText("totalReviews", stats.total);
-  setText("positiveReviews", stats.positive);
-  setText("neutralReviews", stats.neutral);
-  setText("negativeReviews", stats.negative);
+  setText("phoneCount", stats.categoryCounts["手机"] || 0);
+  setText("watchCount", stats.categoryCounts["手表"] || 0);
+  setText("tabletCount", stats.categoryCounts["平板"] || 0);
+  setText("computerCount", stats.categoryCounts["电脑"] || 0);
+  setText("positiveReviews", stats.sentimentCounts["正面"] || 0);
+  setText("neutralReviews", stats.sentimentCounts["中性"] || 0);
+  setText("negativeReviews", stats.sentimentCounts["负面"] || 0);
   setText("platformCount", stats.platformCount);
   setText("latestCrawlTime", stats.latestCrawlTime);
 }
@@ -98,6 +116,15 @@ function getSentimentClass(sentiment) {
   return "sentiment-neutral";
 }
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function renderTable(reviews) {
   const tableBody = document.getElementById("reviewsTableBody");
   const emptyMessage = document.getElementById("emptyMessage");
@@ -114,14 +141,15 @@ function renderTable(reviews) {
     const sentimentClass = getSentimentClass(review.sentiment);
 
     row.innerHTML = `
-      <td>${review.platform}</td>
-      <td>${review.keyword}</td>
-      <td>${review.title}</td>
-      <td class="content-cell">${review.content}</td>
-      <td><span class="sentiment ${sentimentClass}">${review.sentiment}</span></td>
-      <td>${review.publish_time}</td>
-      <td><a class="link" href="${review.url}" target="_blank" rel="noopener">查看原文</a></td>
-      <td>${review.crawl_time}</td>
+      <td><span class="category-pill">${escapeHtml(review.category)}</span></td>
+      <td>${escapeHtml(review.platform)}</td>
+      <td>${escapeHtml(review.keyword)}</td>
+      <td>${escapeHtml(review.title)}</td>
+      <td class="content-cell">${escapeHtml(review.content)}</td>
+      <td><span class="sentiment ${sentimentClass}">${escapeHtml(review.sentiment)}</span></td>
+      <td>${escapeHtml(review.publish_time)}</td>
+      <td><a class="link" href="${escapeHtml(review.url)}" target="_blank" rel="noopener">查看原文</a></td>
+      <td>${escapeHtml(review.crawl_time)}</td>
     `;
 
     tableBody.appendChild(row);
@@ -129,30 +157,33 @@ function renderTable(reviews) {
 }
 
 function filterReviews(reviews) {
-  const keyword = document.getElementById("keywordSearch")?.value.trim().toLowerCase() || "";
-  const sentiment = document.getElementById("sentimentFilter")?.value || "";
+  const category = document.getElementById("categoryFilter")?.value || "";
   const platform = document.getElementById("platformFilter")?.value || "";
+  const sentiment = document.getElementById("sentimentFilter")?.value || "";
+  const keyword = document.getElementById("keywordSearch")?.value.trim().toLowerCase() || "";
 
   return reviews.filter((review) => {
-    const keywordMatched = [review.keyword, review.title, review.content]
+    const categoryMatched = !category || review.category === category;
+    const platformMatched = !platform || review.platform === platform;
+    const sentimentMatched = !sentiment || review.sentiment === sentiment;
+    const keywordMatched = [review.category, review.keyword, review.title, review.content]
       .join(" ")
       .toLowerCase()
       .includes(keyword);
-    const sentimentMatched = !sentiment || review.sentiment === sentiment;
-    const platformMatched = !platform || review.platform === platform;
 
-    return keywordMatched && sentimentMatched && platformMatched;
+    return categoryMatched && platformMatched && sentimentMatched && keywordMatched;
   });
 }
 
 function renderDataPage(reviews) {
   const platforms = Object.keys(countByField(reviews, "platform")).sort();
 
-  populateSelect("sentimentFilter", SENTIMENTS);
+  populateSelect("categoryFilter", CATEGORIES);
   populateSelect("platformFilter", platforms);
+  populateSelect("sentimentFilter", SENTIMENTS);
   renderTable(reviews);
 
-  ["keywordSearch", "sentimentFilter", "platformFilter"].forEach((id) => {
+  ["categoryFilter", "platformFilter", "sentimentFilter", "keywordSearch"].forEach((id) => {
     const element = document.getElementById(id);
     element?.addEventListener("input", () => renderTable(filterReviews(reviews)));
   });
@@ -162,15 +193,44 @@ function objectToChartData(counts) {
   return Object.entries(counts).map(([name, value]) => ({ name, value }));
 }
 
+function createBarOption(title, names, values, color, rotate = 0) {
+  return {
+    tooltip: { trigger: "axis" },
+    grid: { left: 42, right: 22, top: 32, bottom: rotate ? 92 : 48 },
+    xAxis: {
+      type: "category",
+      data: names,
+      axisLabel: { interval: 0, rotate },
+    },
+    yAxis: { type: "value", minInterval: 1 },
+    color: [color],
+    series: [
+      {
+        name: title,
+        type: "bar",
+        data: values,
+        barMaxWidth: 42,
+      },
+    ],
+  };
+}
+
 function renderCharts(reviews) {
   if (typeof echarts === "undefined") {
     return;
   }
 
   const stats = getStats(reviews);
-  const sentimentChart = echarts.init(document.getElementById("sentimentChart"));
-  const platformChart = echarts.init(document.getElementById("platformChart"));
-  const keywordChart = echarts.init(document.getElementById("keywordChart"));
+  const chartElements = {
+    sentiment: document.getElementById("sentimentChart"),
+    category: document.getElementById("categoryChart"),
+    platform: document.getElementById("platformChart"),
+    keyword: document.getElementById("keywordChart"),
+    categorySentiment: document.getElementById("categorySentimentChart"),
+  };
+
+  const charts = Object.values(chartElements).map((element) => echarts.init(element));
+  const [sentimentChart, categoryChart, platformChart, keywordChart, categorySentimentChart] = charts;
 
   sentimentChart.setOption({
     tooltip: { trigger: "item" },
@@ -186,66 +246,63 @@ function renderCharts(reviews) {
           name,
           value: stats.sentimentCounts[name] || 0,
         })),
-        label: {
-          formatter: "{b}: {d}%",
-        },
+        label: { formatter: "{b}: {d}%" },
       },
     ],
   });
 
-  platformChart.setOption({
-    tooltip: { trigger: "axis" },
-    grid: { left: 36, right: 20, top: 32, bottom: 42 },
-    xAxis: {
-      type: "category",
-      data: Object.keys(stats.platformCounts),
-      axisLabel: { interval: 0 },
-    },
-    yAxis: { type: "value", minInterval: 1 },
-    color: ["#246bfe"],
-    series: [
-      {
-        name: "评论数量",
-        type: "bar",
-        data: Object.values(stats.platformCounts),
-        barMaxWidth: 42,
-      },
-    ],
-  });
+  const categoryValues = CATEGORIES.map((category) => stats.categoryCounts[category] || 0);
+  categoryChart.setOption(createBarOption("类别数据量", CATEGORIES, categoryValues, "#246bfe"));
+
+  const platformData = objectToChartData(stats.platformCounts).sort((a, b) => b.value - a.value).slice(0, 12);
+  platformChart.setOption(
+    createBarOption(
+      "平台数据量",
+      platformData.map((item) => item.name),
+      platformData.map((item) => item.value),
+      "#5f6bff",
+      platformData.length > 5 ? 28 : 0
+    )
+  );
 
   const keywordData = objectToChartData(stats.keywordCounts).sort((a, b) => b.value - a.value);
+  keywordChart.setOption(
+    createBarOption(
+      "关键词数据量",
+      keywordData.map((item) => item.name),
+      keywordData.map((item) => item.value),
+      "#17a36b",
+      30
+    )
+  );
 
-  keywordChart.setOption({
+  categorySentimentChart.setOption({
     tooltip: { trigger: "axis" },
-    grid: { left: 40, right: 20, top: 32, bottom: 86 },
-    xAxis: {
-      type: "category",
-      data: keywordData.map((item) => item.name),
-      axisLabel: { interval: 0, rotate: 28 },
-    },
+    legend: { top: 0 },
+    grid: { left: 42, right: 22, top: 48, bottom: 42 },
+    xAxis: { type: "category", data: CATEGORIES },
     yAxis: { type: "value", minInterval: 1 },
-    color: ["#17a36b"],
-    series: [
-      {
-        name: "关键词数量",
-        type: "bar",
-        data: keywordData.map((item) => item.value),
-        barMaxWidth: 40,
-      },
-    ],
+    color: ["#17a36b", "#d58a00", "#e24a4a"],
+    series: SENTIMENTS.map((sentiment) => ({
+      name: sentiment,
+      type: "bar",
+      stack: "sentiment",
+      data: CATEGORIES.map((category) => stats.categorySentimentCounts[category][sentiment] || 0),
+      barMaxWidth: 54,
+    })),
   });
 
-  window.addEventListener("resize", () => {
-    sentimentChart.resize();
-    platformChart.resize();
-    keywordChart.resize();
-  });
+  window.addEventListener("resize", () => charts.forEach((chart) => chart.resize()));
 }
 
 function showLoadError(error) {
   console.error(error);
 
   setText("totalReviews", "读取失败");
+  setText("phoneCount", "--");
+  setText("watchCount", "--");
+  setText("tabletCount", "--");
+  setText("computerCount", "--");
   setText("positiveReviews", "--");
   setText("neutralReviews", "--");
   setText("negativeReviews", "--");
